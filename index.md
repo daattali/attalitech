@@ -147,18 +147,7 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
             Digital droplet PCR analysis
           </div>
           <div class="appdesc">
-            Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis. Manuscript available on F1000Research.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/cancer-data/">
-          <img class="appimg" src="/assets/img/cancer.png" />
-          <div class="apptitle">
-            Cancer data
-          </div>
-          <div class="appdesc">
-            Interactively explore data about cancer incidences/deaths in the US.
+            Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis.
           </div>
         </a>
       </div>
@@ -188,7 +177,7 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
         <a class="applink" href="https://daattali.com/shiny/shinyalert-demo/">
           <img class="appimg" src="/assets/img/shinyalert.png" />
           <div class="apptitle">
-            shinyalert demo
+            'shinyalert' demo
           </div>
           <div class="appdesc">
             'shinyalert' is an R package I built for easily creating pretty popup messages (modals) in Shiny.
@@ -207,10 +196,32 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
         </a>
       </div>
       <div class="shinyapp">
+        <a class="applink" href="https://daattali.com/shiny/shinycssloaders-demo/">
+          <img class="appimg" src="/assets/img/shinycssloaders.png" />
+          <div class="apptitle">
+            'shinycssloaders' demo
+          </div>
+          <div class="appdesc">
+            'shinycssloaders' is an R package for adding loading animations to a Shiny output while it's recalculating.
+          </div>
+        </a>
+      </div>
+      <div class="shinyapp">
+        <a class="applink" href="https://daattali.com/shiny/cancer-data/">
+          <img class="appimg" src="/assets/img/cancer.png" />
+          <div class="apptitle">
+            Cancer data
+          </div>
+          <div class="appdesc">
+            Interactively explore data about cancer incidences/deaths in the US.
+          </div>
+        </a>
+      </div>
+      <div class="shinyapp">
         <a class="applink" href="https://daattali.com/shiny/shinyjs-demo/">
           <img class="appimg" src="/assets/img/shinyjs.png" />
           <div class="apptitle">
-            shinyjs demo
+            'shinyjs' demo
           </div>
           <div class="appdesc">
             'shinyjs' is an R package I built that makes it easy to perform common JavaScript operations in Shiny apps. This demo allows you to experiment with different 'shinyjs' functions.
