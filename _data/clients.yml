@@ -1,0 +1,39 @@
+- name: Imperial College London
+  img: ICL.png
+  url: https://www.imperial.ac.uk/
+- name: Dartmouth College
+  img: dartmouth.png
+  url: https://dartmouth.edu/
+- name: University of British Columbia
+  img: UBC.png
+  url: https://www.ubc.ca/
+- name: BC Stats (BC Government)
+  img: BCStats.png
+  url: https://www.bcstats.gov.bc.ca/
+- name: Morning Consult Intelligence
+  img: MCI.png
+  url: https://morningconsultintelligence.com/
+  height: 30px
+- name: University of Oregon
+  img: uoregon.png
+  url: https://uoregon.edu/
+- name: ProtoLife
+  img: protolife.png
+  url: https://www.protolife.com/
+  height: 50px
+- name: Certara
+  img: certara.png
+  url: https://www.certara.com/
+  height: 50px
+- name: ResourceX Priority Based Budgeting
+  img: resourcex.png
+  url: https://www.resourcex.net/
+- name: Neon Therapeutics
+  img: neon.png
+  url: https://neontherapeutics.com/
+- name: R Epidemics Consortium
+  img: RECON.png
+  url: https://www.repidemicsconsortium.org/
+- name: Navgathi Marine Design & Constructions
+  img: navgathi.png
+  url: http://navgathi.com/

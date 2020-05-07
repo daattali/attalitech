@@ -7,7 +7,7 @@ css:
   - /assets/css/index.css
 ---
 
-<a href="https://github.com/daattali/shiny-server" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+{% include github_ribbon.html %}
 
 <div id="header" markdown="1">
 
@@ -17,30 +17,12 @@ css:
 
 <div id="aboutme-section" markdown="1">
 
-<span class="fas fa-briefcase about-icon fa-fw" aria-hidden="true"></span>
-Previously a **software engineer** at **Google** and top San Francisco startup [Wish.com](https://www.wish.com/)
+{% for info in site.data.main_info %}
+<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
+<span>{{ info.content }}</span>
 {: .about-text }
-
-<span class="fas fa-code about-icon fa-fw" aria-hidden="true"></span>
-**Author of popular packages** [shinyjs](https://deanattali.com/shinyjs) ([featured by RStudio](https://shiny.rstudio.com/articles)), [timevis](https://github.com/daattali/timevis), [addinslist](https://github.com/daattali/addinslist) & [more](https://deanattali.com/projects/#r-packages)
-{: .about-text }
-
-<span class="fas fa-users about-icon fa-fw" aria-hidden="true"></span>
-Creator of ["Shiny Case Studies"](https://www.datacamp.com/courses/building-web-applications-in-r-with-shiny-case-studies) course — an interactive, online video course
-{: .about-text }
-
-<span class="fas fa-microphone about-icon fa-fw" aria-hidden="true"></span>
-Invited main speaker at **Shiny Developer Conference** hosted by RStudio - [30 min talk](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-shinyjs-deanattali-1080p)
-{: .about-text }
-
-<span class="fas fa-trophy about-icon fa-fw" aria-hidden="true"></span>
-**Second highest** all-time answerer in the "shiny" tag on [StackOverflow](https://stackoverflow.com/tags/shiny/topusers)
-{: .about-text }
-			
-<span class="fas fa-info about-icon fa-fw" aria-hidden="true"></span>
-Learn more at **[DeanAttali.com](https://deanattali.com/)**
-{: .about-text }
-			
+{% endfor %}
+		
 </div>
 </div>
 
@@ -72,23 +54,16 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
   <div id="clients">
     <div class="section-title">Clients</div>
     <div id="clients-subtitle">Clients range from startups to universities to government agencies and large businesses</div>
-    <div id="client-logos" markdown="1">
-[![Imperial College London](/assets/img/logos/ICL.png)](https://www.imperial.ac.uk/){: title="Imperial College London" }
-[![Dartmouth College](/assets/img/logos/dartmouth.png)](https://dartmouth.edu/){: title="Dartmouth College" }
-[![University of British Columbia](/assets/img/logos/UBC.png)](https://www.ubc.ca/){: title="University of British Columbia" }
-[![BC Stats (BC Government)](/assets/img/logos/BCStats.png)](https://www.bcstats.gov.bc.ca/){: title="BC Stats (BC Government)" }
-[![Morning Consult Intelligence](/assets/img/logos/MCI.png){: style="height: 30px" }](https://morningconsultintelligence.com/){: title="Morning Consult Intelligence" }
-[![University of Oregon](/assets/img/logos/uoregon.png)](https://uoregon.edu/){: title="University of Oregon" }
-[![ProtoLife](/assets/img/logos/protolife.png){: style="height: 50px" }](https://www.protolife.com/){: title="ProtoLife" }
-[![Certara](/assets/img/logos/certara.png){: style="height: 50px" }](https://www.certara.com/){: title="Certara" }
-[![ResourceX Priority Based Budgeting](/assets/img/logos/resourcex.png)](https://www.resourcex.net/){: title="ResourceX Priority Based Budgeting" }
-[![Neon Therapeutics](/assets/img/logos/neon.png)](https://neontherapeutics.com/){: title="Neon Therapeutics" }
-[![R Epidemics Consortium](/assets/img/logos/RECON.png)](https://www.repidemicsconsortium.org/){: title="R Epidemics Consortium" }
-[![Navgathi Marine Design & Constructions](/assets/img/logos/navgathi.png)](http://navgathi.com/){: title="Navgathi Marine Design & Constructions" }
-</div>
+    <div id="client-logos">
+      {% for client in site.data.clients %}
+        <a class="client-img" href="{{ client.url }}" title="{{ client.name }}">
+          <img alt="{{ client.name }}" src="/assets/img/logos/{{ client.img }}"
+		       {% if client.height %} style="height: {{ client.height }}" {% endif %}/>
+		</a>
+      {% endfor %}
+    </div>
   </div>
 </div>
-
 
 <div id="portfolio-out" class="page-section">
   <div id="portfolio">
@@ -96,204 +71,15 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
       Sample of My Personal Shiny Apps
     </div>
     <div id="shinyapps-big" data-columns>
-      <div class="shinyapp">
-        <a class="applink" href="https://cranalerts.com/">
-          <img class="appimg" src="https://cranalerts.com/screenshot.PNG" />
-          <div class="apptitle">
-            CRANalerts
-          </div>
-          <div class="appdesc">
-            Get email alerts when a CRAN package gets updated.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/timevis-demo/">
-          <img class="appimg" src="/assets/img/timevis-demo.png" />
-          <div class="apptitle">
-            timevis
-          </div>
-          <div class="appdesc">
-            'timevis' is an R package I built that lets you create interactive timeline visualizations in R.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/lightsout/">
-          <img class="appimg" src="/assets/img/lightsout.png" />
-          <div class="apptitle">
-            Lights Out game
-          </div>
-          <div class="appdesc">
-            Lights Out is a fun brain-teasing puzzle game. I wrote an R implementation of the game in the package 'lightsout' and here you can play the game using R.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/cfl/">
-          <img class="appimg" src="/assets/img/cfl.png" />
-          <div class="apptitle">
-            Impact Replays
-          </div>
-          <div class="appdesc">
-            An app I wrote that won third place nationally at a CFL (Canadian Football) hackathon. Relive the exciting moments of any CFL game.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/ddpcr/">
-          <img class="appimg" src="/assets/img/ddpcr.png" />
-          <div class="apptitle">
-            Digital droplet PCR analysis
-          </div>
-          <div class="appdesc">
-            Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/user2017/">
-          <img class="appimg" src="/assets/img/user2017.png" />
-          <div class="apptitle">
-            useR! 2017 Attendance
-          </div>
-          <div class="appdesc">
-            Interactively explore the attendees' schedules from the useR! 2017 Conference.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/rbloggers-twitter/">
-          <img class="appimg" src="/assets/img/rbloggers.png" />
-          <div class="apptitle">
-            Analyzing R-Bloggers' posts using Twitter
-          </div>
-          <div class="appdesc">
-            Explore the success of all R-Bloggers' posts using Twitter (supplement to a blog post).
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/shinyalert-demo/">
-          <img class="appimg" src="/assets/img/shinyalert.png" />
-          <div class="apptitle">
-            'shinyalert' demo
-          </div>
-          <div class="appdesc">
-            'shinyalert' is an R package I built for easily creating pretty popup messages (modals) in Shiny.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/colourInput/">
-          <img class="appimg" src="/assets/img/colourinput.png" />
-          <div class="apptitle">
-            colourInput
-          </div>
-          <div class="appdesc">
-            Demo of using the colourInput input control in Shiny apps to allow users to select colours.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/shinycssloaders-demo/">
-          <img class="appimg" src="/assets/img/shinycssloaders.png" />
-          <div class="apptitle">
-            'shinycssloaders' demo
-          </div>
-          <div class="appdesc">
-            'shinycssloaders' is an R package for adding loading animations to a Shiny output while it's recalculating.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/cancer-data/">
-          <img class="appimg" src="/assets/img/cancer.png" />
-          <div class="apptitle">
-            Cancer data
-          </div>
-          <div class="appdesc">
-            Interactively explore data about cancer incidences/deaths in the US.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/shinyjs-demo/">
-          <img class="appimg" src="/assets/img/shinyjs.png" />
-          <div class="apptitle">
-            'shinyjs' demo
-          </div>
-          <div class="appdesc">
-            'shinyjs' is an R package I built that makes it easy to perform common JavaScript operations in Shiny apps. This demo allows you to experiment with different 'shinyjs' functions.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/visualize-git-commits-time/">
-          <img class="appimg" src="/assets/img/visualize-git-commits.png" />
-          <div class="apptitle">
-            Visualizing when I'm most productive during the day
-          </div>
-          <div class="appdesc">
-            Analyzing my (and others') git activity to see our work, or coding, patterns.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/ggExtra-ggMarginal-demo/">
-          <img class="appimg" src="/assets/img/ggmarginal.png" />
-          <div class="apptitle">
-            Adding marginal histograms to ggplot2
-          </div>
-          <div class="appdesc">
-            Demo of how my package 'ggExtra' can be used to add marginal plots to ggplot2.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/persistent-data-storage/">
-          <img class="appimg" src="/assets/img/persistent.png" />
-          <div class="apptitle">
-            Persistent data storage with Shiny
-          </div>
-          <div class="appdesc">
-            Demonstration of how to store and retrieve data in Shiny apps (supplement to a blog post).
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/mimic-google-form/">
-          <img class="appimg" src="/assets/img/mimic.png" />
-          <div class="apptitle">
-            Mimicking a Google Form with a Shiny app
-          </div>
-          <div class="appdesc">
-            Demonstration of how to create forms and save/load submissions with shiny (supplement to a blog post).
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/bingo/">
-          <img class="appimg" src="/assets/img/bingo.png" />
-          <div class="apptitle">
-            Bingo card generator
-          </div>
-          <div class="appdesc">
-            The name says it all - a simple app that lets you generate bingo cards.
-          </div>
-        </a>
-      </div>
-      <div class="shinyapp">
-        <a class="applink" href="https://daattali.com/shiny/bcl/">
-          <img class="appimg" src="/assets/img/bcl.png" />
-          <div class="apptitle">
-            BC Liquor Store prices
-          </div>
-          <div class="appdesc">
-            Simple app that is built as part of a Shiny tutorial I've written. The app lets you find what to get from the liquor store based on filters you choose.
-          </div>
-        </a>
-      </div>
+      {% for app in site.data.portfolio %}
+	    <div class="shinyapp">
+          <a class="applink" href="{{ app.url }}">
+            <img class="appimg" src="/assets/img/screenshots/{{ app.img }}" />
+            <div class="apptitle">{{ app.title }}</div>
+            <div class="appdesc">{{ app.description }}</div>
+          </a>
+        </div>
+	  {% endfor %}
     </div>
   </div>
 </div>
@@ -302,34 +88,11 @@ Learn more at **[DeanAttali.com](https://deanattali.com/)**
   <div id="qualifications">
     <div class="section-title">Credentials</div>
     <div id="qualifications-list" markdown="1">
-
-<span class="fas fa-graduation-cap fa-fw" aria-hidden="true"></span>
-MSc in Bioinformatics (UBC) &bull; Bachelor of Computer Science (University of Waterloo)
+{% for info in site.data.qualifications %}
+<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
+<span>{{ info.content }}</span>
 {: .about-text }
-
-<span class="fas fa-users fa-fw" aria-hidden="true"></span>
-Taught the 'Intermediate Shiny' 2-day workshop at RStudio Conference
-{: .about-text }
-
-<span class="fas fa-podcast fa-fw" aria-hidden="true"></span>
-Interviewed for [Episode 16](https://www.r-podcast.org/posts/the-r-podcast-episode-16-interview-with-dean-attali.html) and [Episode 19](https://r-podcast.org/episode/019-talking-shiny-at-rstudio-conf-with-barbara-borges-and-dean-attali/) of The R-Podcast
-{: .about-text }
-
-<span class="fas fa-pencil-alt fa-fw" aria-hidden="true"></span>
-Wrote [an article](https://shiny.rstudio.com/articles/persistent-data-storage.html) for RStudio that is hosted on Shiny's official webpage
-{: .about-text }
-
-<span class="fas fa-star fa-fw" aria-hidden="true"></span>
-Several apps featured on RStudio's official [Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
-{: .about-text }
-
-<span class="fab fa-github fa-fw" aria-hidden="true"></span>
-Often in the top 5 [Trending R Developers](https://github.com/trending/developers/r?since=monthly) on GitHub
-{: .about-text }
-
-<span class="fas fa-book fa-fw" aria-hidden="true"></span>
-Official book reviewer of the book ["Learning Shiny"](https://www.packtpub.com/application-development/learning-shiny) (not an endorsement)
-{: .about-text }
+{% endfor %}
 </div>
   </div>
   <a href="https://deanattali.com/contact" class="contact-me-btn actionbtn">

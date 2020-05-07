@@ -183,16 +183,18 @@ footer {
   font-size: 22px;
   margin: 20px 0 30px;
 }
-#clients a {
+#clients .client-img {
   display: inline-block;
   vertical-align: middle;
   padding: 15px;
+  transition: transform 150ms;
 }
-#clients img {
+#clients .client-img img {
   height: 80px;
 }
-#clients a:hover {
+#clients .client-img:hover {
   box-shadow: 0 0 10px #aaa;
+  transform: scale(1.1);
 }
 
 #shinyapps-big {

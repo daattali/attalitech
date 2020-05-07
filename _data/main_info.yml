@@ -1,0 +1,12 @@
+- icon: fas fa-briefcase
+  content: Previously a **software engineer** at **Google** and top San Francisco startup [Wish.com](https://www.wish.com/)
+- icon: fas fa-code
+  content: "**Author of popular packages** [shinyjs](https://deanattali.com/shinyjs) ([featured by RStudio](https://shiny.rstudio.com/articles)), [timevis](https://github.com/daattali/timevis), [addinslist](https://github.com/daattali/addinslist) & [more](https://deanattali.com/projects/#r-packages)"
+- icon: fas fa-users
+  content: Creator of ["Shiny Case Studies"](https://www.datacamp.com/courses/building-web-applications-in-r-with-shiny-case-studies) course — an interactive, online video course
+- icon: fas fa-microphone
+  content: Invited main speaker at **Shiny Developer Conference** hosted by RStudio - [30 min talk](https://resources.rstudio.com/shiny-developer-conference/shinydevcon-shinyjs-deanattali-1080p)
+- icon: fas fa-trophy
+  content: "**Second highest** all-time answerer in the \"shiny\" tag on [StackOverflow](https://stackoverflow.com/tags/shiny/topusers)"
+- icon: fas fa-info
+  content: Learn more at **[DeanAttali.com](https://deanattali.com/)**
