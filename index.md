@@ -19,7 +19,7 @@ css:
 
 {% for info in site.data.main_info %}
 <span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
-<span>{{ info.content }}</span>
+<span class="about-content">{{ info.content }}</span>
 {: .about-text }
 {% endfor %}
 		
@@ -90,7 +90,7 @@ css:
     <div id="qualifications-list" markdown="1">
 {% for info in site.data.qualifications %}
 <span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
-<span>{{ info.content }}</span>
+<span class="about-content">{{ info.content }}</span>
 {: .about-text }
 {% endfor %}
 </div>

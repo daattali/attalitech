@@ -14,18 +14,13 @@ footer a {
 
 /* Subscription section */
 
-.mailchimp-subscribe-section {
-  margin-top: 10px;
-  border-top: 3px double #fff;
-  padding-top: 10px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
-  margin-bottom: 10px;
-}
 #mailchimp-subscribe-section-footer {
   border-top: 0 none;
   width: 50%;
-  margin: 15px auto 0;
+  margin: 0.9375rem auto 0;
+  padding-top: 0.625rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 .mailchimp-subscribe-section .container {
   width: auto;
@@ -43,25 +38,25 @@ footer a {
   padding: 0 2px;
 }
 #mailchimp-subscribe-section-scrollbox label {
-  font-size: 16px;
-  margin-bottom: 7px;
+  font-size: 1rem;
+  margin-bottom: 0.4375rem;
   font-weight: normal;
   display: block;
 }
 .mailchimp-subscribe-section .email {
-  padding: 0 10px;
+  padding: 0 0.625rem;
   border: 1px solid #ABB0B2;
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   color: #343434;
   background-color: #fff;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
-  margin: 0 0 5px;
+  margin: 0 0 0.3125rem;
   width: 100%;
 }
 .mailchimp-subscribe-section .button {
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   font-weight: bold;
   border: 1px solid #ABB0B2;
   color: #2c8a3d;
@@ -90,22 +85,22 @@ footer a {
 
 .mailchimp-subscribe-section .email,
 .mailchimp-subscribe-section .button {
-  height: 30px;
-  font-size: 14px;
+  height: 1.875rem;
+  font-size: 0.875rem;
 }
 
 @media only screen and (min-width: 980px) {
   #mailchimp-subscribe-section-scrollbox #mc_embed_signup-scrollbox label {
-    font-size: 18px;
-    margin-bottom: 3px;
+    font-size: 1.125rem;
+    margin-bottom: 0.1875rem;
   }
   .mailchimp-subscribe-section .email,
   .mailchimp-subscribe-section .button {
-    height: 35px;
+    height: 2.1875rem;
   }
 }
 @media only screen and (max-width: 979px) {
   .mailchimp-subscribe-section .email {
-    margin-bottom: 3px;
+    margin-bottom: 0.1875rem;
   }
 }
