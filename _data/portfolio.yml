@@ -14,6 +14,10 @@
   description: "Lights Out is a fun brain-teasing puzzle game. I wrote an R implementation of the game in the package 'lightsout' and here you can play the game using R."
   img: lightsout.png
   url: https://daattali.com/shiny/lightsout/
+- title: Cancer data
+  description: Interactively explore data about cancer incidences/deaths in the US.
+  img: cancer.png
+  url: https://daattali.com/shiny/cancer-data/
 - title: Impact Replays
   description: An app I wrote that won third place nationally at a CFL (Canadian Football) hackathon. Relive the exciting moments of any CFL game.
   img: cfl.png
@@ -42,14 +46,14 @@
   description: Demo of using the colourInput input control in Shiny apps to allow users to select colours.
   img: colourinput.png
   url: https://daattali.com/shiny/colourInput/
+- title: shinydisconnect
+  description: "'shinydisconnect' is an R package that allows you to show nice messages to the user when a Shiny app disconnects or errors."
+  img: shinydisconnect.png
+  url: https://daattali.com/shiny/shinydisconnect-demo/
 - title: "'shinycssloaders' demo"
   description: "'shinycssloaders' is an R package for adding loading animations to a Shiny output while it's recalculating."
   img: shinycssloaders.png
   url: https://daattali.com/shiny/shinycssloaders-demo/
-- title: Cancer data
-  description: Interactively explore data about cancer incidences/deaths in the US.
-  img: cancer.png
-  url: https://daattali.com/shiny/cancer-data/
 - title: "'shinyjs' demo"
   description: "'shinyjs' is an R package I built that makes it easy to perform common JavaScript operations in Shiny apps. This demo allows you to experiment with different 'shinyjs' functions."
   img: shinyjs.png
