@@ -48,7 +48,7 @@
   url: https://daattali.com/shiny/colourInput/
 - title: shinydisconnect
   description: "'shinydisconnect' is an R package that allows you to show nice messages to the user when a Shiny app disconnects or errors."
-  img: shinydisconnect.png
+  img: shinydisconnect.PNG
   url: https://daattali.com/shiny/shinydisconnect-demo/
 - title: "'shinycssloaders' demo"
   description: "'shinycssloaders' is an R package for adding loading animations to a Shiny output while it's recalculating."
