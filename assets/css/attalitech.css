@@ -105,6 +105,7 @@ footer a {
   }
 }
 
+/* Support button in navbar */
 .navbar-custom .navbar-nav .nav-item:last-child .nav-link {
   color: hotpink;
   transition: background 300ms, color 300ms;
@@ -112,4 +113,9 @@ footer a {
 .navbar-custom .navbar-nav .nav-item:last-child .nav-link:hover {
   background: hotpink;
   color: #3344bb;
+}
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+    padding-right: 16px;
+  }
 }
