@@ -106,11 +106,11 @@ footer a {
 }
 
 /* Support button in navbar */
-.navbar-custom .navbar-nav .nav-item:last-child .nav-link {
+.navbar-custom .nav li a[href*="github.com/sponsors"] {
   color: hotpink;
   transition: background 300ms, color 300ms;
 }
-.navbar-custom .navbar-nav .nav-item:last-child .nav-link:hover {
+.navbar-custom .nav li a[href*="github.com/sponsors"]:hover {
   background: hotpink;
   color: #3344bb;
 }
