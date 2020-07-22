@@ -104,3 +104,12 @@ footer a {
     margin-bottom: 0.1875rem;
   }
 }
+
+.navbar-custom .navbar-nav .nav-item:last-child .nav-link {
+  color: hotpink;
+  transition: background 300ms, color 300ms;
+}
+.navbar-custom .navbar-nav .nav-item:last-child .nav-link:hover {
+  background: hotpink;
+  color: #3344bb;
+}
