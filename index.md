@@ -85,7 +85,7 @@ css:
 
 <div id="qualifications-out" class="page-section">
   <div id="qualifications">
-    <div class="section-title">Credentials</div>
+    <div class="section-title">Dean's Credentials</div>
     <div id="qualifications-list" markdown="1">
 {% for info in site.data.qualifications %}
 <span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
