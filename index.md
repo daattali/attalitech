@@ -1,9 +1,8 @@
 ---
 layout: base
-title: "Dean Attali - Expert R-Shiny Consultant"
-subtitle: "R-Shiny developer and consultant with a MSc in Bioinformatics and a Bachelor of Computer Science. Previously a software engineer at Google, IBM, and Wish.com."
+title: "AttaliTech - Expert R-Shiny Consultant"
+description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Lead by renowned expert Dean Attali."
 css:
-  - /assets/css/attalitech.css
   - /assets/css/index.css
 ---
 
