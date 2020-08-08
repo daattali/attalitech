@@ -1,6 +1,6 @@
 ---
 title: "AttaliTech Payment Options"
-css: /assets/css/attalitech.css
+description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Lead by renowned expert Dean Attali."
 ---
 
 For any questions regarding payment, please email [payments@attalitech.com](mailto:payments@attalitech.com)
