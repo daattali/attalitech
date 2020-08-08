@@ -1,4 +1,4 @@
-remote_theme: daattali/beautiful-jekyll@4.0.0
+remote_theme: daattali/beautiful-jekyll@4.1.0
 
 # --- Basic options --- #
 
@@ -19,6 +19,12 @@ navbar-links:
   Schedule meeting: "https://calendly.com/attalitech/meeting"
   Contact: "https://deanattali.com/contact"
   ❤ Support: "https://github.com/sponsors/daattali"
+
+site-css: "/assets/css/attalitech.css"
+
+keywords: "r shiny,shiny developer,shiny consultant,r consultant,shiny apps"
+
+mobile-theme-col: "#0085A1"
 
 # --- Footer options --- #
 
