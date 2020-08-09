@@ -59,7 +59,7 @@ kramdown:
   input: GFM
 
 
-# Exclude these files from production siteML values (more information on Jekyll's site)
+# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
@@ -69,6 +69,7 @@ defaults:
       footer-extra: custom_footer.html
       nav-short: true
 
+# Exclude these files from production site
 exclude:
   - CNAME
   - Gemfile
