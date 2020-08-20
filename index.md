@@ -6,8 +6,6 @@ css:
   - /assets/css/index.css
 ---
 
-{% include github_ribbon.html %}
-
 <div id="header" markdown="1">
 
 # AttaliTech Ltd {#title}
@@ -17,10 +15,6 @@ css:
 <b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
 
 <div id="aboutme-section" markdown="1">
-
-
-{: .about-text style="text-align: center"}
-
 {% for info in site.data.main_info %}
 {% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
 <span class="about-content">{{ info.content }}</span>
