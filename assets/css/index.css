@@ -115,7 +115,7 @@ footer {
   text-shadow: 0 1px #fff;
 }
 #services .service {
-  display: inline-block;
+  display: block;
   padding: 0.625rem;
   font-size: 1.25rem;
   cursor: default;
