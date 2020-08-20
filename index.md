@@ -14,9 +14,11 @@ css:
 
 ## R-Shiny Consultant {#subtitle}
 
+<b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+
 <div id="aboutme-section" markdown="1">
 
-<b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+
 {: .about-text style="text-align: center"}
 
 {% for info in site.data.main_info %}
@@ -70,7 +72,7 @@ css:
 <div id="portfolio-out" class="page-section">
   <div id="portfolio">
     <div class="section-title">
-      Sample of My Personal Shiny Apps
+      Sample of Open Sourced Shiny Apps
     </div>
     <div id="shinyapps-big" data-columns>
       {% for app in site.data.portfolio %}
