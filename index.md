@@ -1,7 +1,7 @@
 ---
 layout: base
 title: "AttaliTech - Expert R-Shiny Consultant"
-description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Lead by renowned expert Dean Attali."
+description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Led by renowned expert Dean Attali."
 css:
   - /assets/css/index.css
 ---
