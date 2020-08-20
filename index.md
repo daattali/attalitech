@@ -13,6 +13,7 @@ css:
 ## R-Shiny Consultant {#subtitle}
 
 <b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+{: style="font-size: 22px; margin-bottom: -25px;" }
 
 <div id="aboutme-section" markdown="1">
 {% for info in site.data.main_info %}
