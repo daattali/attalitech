@@ -12,8 +12,23 @@ css:
 
 ## R-Shiny Consultant {#subtitle}
 
-<b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
-{: style="font-size: 22px;" }
+<b style="font-size: 1.2em;">Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+
+
+
+</div>
+
+<div id="main-sections" style="margin-top:-30px;">
+
+<div id="services-out" class="page-section">
+  <div id="services">
+	
+	<div id="services-list">
+	  <span class="service" markdown="1">Building or improving **Shiny apps** of any complexity</span>
+	  <span class="service" markdown="1">Offering expert advice, **training**, and workshops in Shiny/R</span>
+	  <span class="service" markdown="1">Code review and **optimization** of Shiny apps and workflows</span>
+	  <span class="service" markdown="1">Building professional quality **R packages**</span>
+	</div>
 
 <a href="/contact" class="contact-me-btn actionbtn">
   <span class="far fa-envelope" aria-hidden="true"></span>
@@ -24,30 +39,20 @@ css:
   SCHEDULE MEETING
 </a>
 
-</div>
-
-<div id="main-sections">
-
-<div id="services-out" class="page-section">
-  <div id="services">
-	<div class="section-title">Services Include</div>
-	<div id="services-list">
-	  <span class="service" markdown="1">Building or improving **Shiny apps** of any complexity</span>
-	  <span class="service" markdown="1">Offering expert advice, **training**, and workshops in Shiny/R</span>
-	  <span class="service" markdown="1">Code review and **optimization** of Shiny apps and workflows</span>
-	  <span class="service" markdown="1">Building professional quality **R packages**</span>
-	</div>
-
   </div>
 </div>
 
-<div id="aboutme-section" markdown="1" class="page-section">
-<div class="section-title">About Dean</div>
+<div id="aboutme-section-out" class="page-section">
+  <div id="aboutme-section">
+    <div class="section-title">About Dean</div>
+	<div id="aboutme-list" markdown="1">
 {% for info in site.data.main_info %}
 {% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
 <span class="about-content">{{ info.content }}</span>
 {: .about-text }
 {% endfor %}
+</div>
+  </div>
 </div>
 
 <div id="clients-out" class="page-section">

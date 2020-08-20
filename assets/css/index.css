@@ -82,10 +82,10 @@ footer {
   display: inline-block;
 }
 
-.page-section:nth-child(even) {
+.page-section:nth-child(odd) {
   background: #fff;
 }
-.page-section:nth-child(odd) {
+.page-section:nth-child(even) {
   background: #f5f5f5;
   border: 1px solid #eee;
   border-width: 1px 0;
