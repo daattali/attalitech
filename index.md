@@ -22,7 +22,7 @@ css:
 
 <div id="services-out" class="page-section">
   <div id="services">
-	
+	<div class="section-title">Services</div>
 	<div id="services-list">
 	  <span class="service" markdown="1">Building or improving **Shiny apps** of any complexity</span>
 	  <span class="service" markdown="1">Offering expert advice, **training**, and workshops in Shiny/R</span>

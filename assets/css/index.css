@@ -108,7 +108,9 @@ footer {
     font-size: 1.75rem;
   }
 }
-
+body { background: #184377; }
+#header { padding: 130px 0 150px; color: #3fc7a1; }
+#header a { color: #3fc7a1; text-decoration: underline;}
 #services {
   display: block;
   margin: 0 auto;
