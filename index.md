@@ -13,16 +13,17 @@ css:
 ## R-Shiny Consultant {#subtitle}
 
 <b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
-{: style="font-size: 22px; margin-bottom: -25px;" }
+{: style="font-size: 22px;" }
 
-<div id="aboutme-section" markdown="1">
-{% for info in site.data.main_info %}
-{% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
-<span class="about-content">{{ info.content }}</span>
-{: .about-text }
-{% endfor %}
-		
-</div>
+<a href="/contact" class="contact-me-btn actionbtn">
+  <span class="far fa-envelope" aria-hidden="true"></span>
+  CONTACT
+</a>
+<a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
+  <span class="far fa-calendar-check" aria-hidden="true"></span>
+  SCHEDULE MEETING
+</a>
+
 </div>
 
 <div id="main-sections">
@@ -36,18 +37,18 @@ css:
 	  <span class="service" markdown="1">Code review and **optimization** of Shiny apps and workflows</span>
 	  <span class="service" markdown="1">Building professional quality **R packages**</span>
 	</div>
-	<a href="/contact" class="contact-me-btn actionbtn">
-	  <span class="far fa-envelope" aria-hidden="true"></span>
-	  CONTACT
-	</a>
-	<a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
-	  <span class="far fa-calendar-check" aria-hidden="true"></span>
-	  SCHEDULE MEETING
-	</a>
+
   </div>
 </div>
 
-
+<div id="aboutme-section" markdown="1" class="page-section">
+<div class="section-title">About Dean</div>
+{% for info in site.data.main_info %}
+{% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
+<span class="about-content">{{ info.content }}</span>
+{: .about-text }
+{% endfor %}
+</div>
 
 <div id="clients-out" class="page-section">
   <div id="clients">

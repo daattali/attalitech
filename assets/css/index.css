@@ -6,13 +6,11 @@ body, html {
   padding: 0;
 }
 
-#header p a,
-#main-sections p a {
+p a {
   text-decoration: none;
   color: #1E6DE8;
 }
-#header p a:hover,
-#main-sections p a:hover {
+p a:hover{
   text-decoration: underline;
   color: #1E6DE8;
 }
@@ -102,6 +100,7 @@ footer {
 
 .page-section .section-title {
   font-size: 2.125rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 650px) {
