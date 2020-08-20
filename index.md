@@ -16,7 +16,7 @@ css:
 
 <div id="aboutme-section" markdown="1">
 
-<b class="about-content">Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+<b>Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
 {: .about-text style="text-align: center"}
 
 {% for info in site.data.main_info %}
