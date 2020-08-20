@@ -110,16 +110,14 @@ footer {
 }
 
 #services {
-  max-width: 75rem;
+  display: block;
   margin: 0 auto;
   text-shadow: 0 1px #fff;
 }
 #services .service {
   display: inline-block;
   padding: 0.625rem;
-  margin: 0.625rem 0.3125rem;
   font-size: 1.25rem;
-  width: 17.1875rem;
   cursor: default;
   vertical-align: top;
 }
