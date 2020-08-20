@@ -16,6 +16,8 @@ css:
 
 <div id="aboutme-section" markdown="1">
 
+<span class="about-content" style="font-weight: bold; text-align: center;">Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</span>
+
 {% for info in site.data.main_info %}
 {% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
 <span class="about-content">{{ info.content }}</span>
