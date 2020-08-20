@@ -35,9 +35,9 @@ css:
 	  <span class="service" markdown="1">Code review and **optimization** of Shiny apps and workflows</span>
 	  <span class="service" markdown="1">Building professional quality **R packages**</span>
 	</div>
-	<a href="https://deanattali.com/contact" class="contact-me-btn actionbtn">
+	<a href="/contact" class="contact-me-btn actionbtn">
 	  <span class="far fa-envelope" aria-hidden="true"></span>
-	  CONTACT DEAN
+	  CONTACT
 	</a>
 	<a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
 	  <span class="far fa-calendar-check" aria-hidden="true"></span>
@@ -93,9 +93,9 @@ css:
 {% endfor %}
 </div>
   </div>
-  <a href="https://deanattali.com/contact" class="contact-me-btn actionbtn">
+  <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT DEAN
+    CONTACT
   </a>
   <a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
     <span class="far fa-calendar-check" aria-hidden="true"></span>
