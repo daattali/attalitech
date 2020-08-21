@@ -156,7 +156,7 @@ body { background: #184377; }
   text-align: center;
   vertical-align: middle;
   padding: 0.9375rem 1.875rem;
-  border-radius: 2px;
+  border-radius: 0.125rem;
   background: #4fc949;
   font-size: 1.25rem;
   color: #fff;
@@ -199,7 +199,7 @@ body { background: #184377; }
   transition: transform 150ms;
 }
 #clients .client-img img {
-  height: 80px;
+  height: 5rem;
 }
 #clients .client-img:hover {
   box-shadow: 0 0 10px #aaa;

@@ -1,3 +1,5 @@
+/* Assume 1rem=16px */
+
 p a {
   text-decoration: underline;
 }
@@ -35,7 +37,7 @@ footer a {
 .mailchimp-subscribe-section .container .row .col-sm-8,
 .mailchimp-subscribe-section .container .row .col-sm-4 {
   margin: 0;
-  padding: 0 2px;
+  padding: 0 0.125rem;
 }
 #mailchimp-subscribe-section-scrollbox label {
   font-size: 1rem;
@@ -116,6 +118,6 @@ footer a {
 }
 @media (min-width: 768px) {
   .navbar-custom .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
-    padding-right: 16px;
+    padding-right: 1rem;
   }
 }

@@ -13,18 +13,18 @@
 - name: Morning Consult Intelligence
   img: MCI.png
   url: https://morningconsultintelligence.com/
-  height: 30px
+  height: 3.125rem
 - name: University of Oregon
   img: uoregon.png
   url: https://uoregon.edu/
 - name: ProtoLife
   img: protolife.png
   url: https://www.protolife.com/
-  height: 50px
+  height: 3.125rem
 - name: Certara
   img: certara.png
   url: https://www.certara.com/
-  height: 50px
+  height: 3.125rem
 - name: ResourceX Priority Based Budgeting
   img: resourcex.png
   url: https://www.resourcex.net/
