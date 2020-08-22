@@ -108,9 +108,15 @@ footer {
     font-size: 1.75rem;
   }
 }
-body { background: #184377; }
-#header { padding: 130px 0 150px; color: #3fc7a1; }
-#header a { color: #3fc7a1; text-decoration: underline;}
+body { background: #cde0fd; }
+#header { padding: 6.25rem 0 7.5rem; color: #184377; }
+#header a { color: #184377; text-decoration: underline;}
+#header a:hover { color: #3380d4;}
+#header img { height: 8rem; margin-top: 1.25rem; }
+@media only screen and (max-width: 750px) {
+#header { padding: 4.5rem 0 5.5rem; }
+#header img { height: 6rem; margin-top: 1rem; }
+}
 #services {
   display: block;
   margin: 0 auto;
@@ -118,35 +124,22 @@ body { background: #184377; }
 }
 #services .service {
   display: block;
-  padding: 0.625rem;
-  font-size: 1.25rem;
+  padding: 0.825rem;
+  font-size: 1.35rem;
   cursor: default;
   vertical-align: top;
 }
 #services .service:hover {
   background: #fafafa;
 }
-@media only screen and (max-width: 1179px) {
-  #services .service {
-    width: 14.375rem;
-    padding: 0.625rem 0.3125rem;
-  }
-}
 @media only screen and (max-width: 999px) {
   #services .service {
-    width: 8.75rem;
+    padding: 0.625rem;
     font-size: 1.125rem;
   }
 }
-@media only screen and (max-width: 650px) {
-  #services .service {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-  }
-  #services {
-    padding: 0.9375rem 0;
-  }
+#services-list {
+  margin-bottom: 15px;
 }
 
 .actionbtn {

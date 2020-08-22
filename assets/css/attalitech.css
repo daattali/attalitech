@@ -107,6 +107,13 @@ footer a {
   }
 }
 
+.navbar-custom {
+  border-bottom-width: 0;
+}
+.navbar-custom.top-nav-short, .navbar-custom.top-nav-expanded {
+  border-bottom-width: 1px;
+}
+
 /* Support button in navbar */
 .navbar-custom .navbar-nav li a[href*="github.com/sponsors"] {
   color: hotpink;
