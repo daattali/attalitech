@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 /* Assume 1rem=16px */
 
 p a {
@@ -108,10 +112,10 @@ footer a {
 }
 
 .navbar-custom {
-  border-bottom-width: 0;
+  border-bottom-color: {{ site.navbar-col | default: "#EAEAEA" }};
 }
 .navbar-custom.top-nav-short, .navbar-custom.top-nav-expanded {
-  border-bottom-width: 1px;
+  border-bottom-color: {{ site.navbar-border-col | default: "#DDDDDD" }};
 }
 
 /* Support button in navbar */

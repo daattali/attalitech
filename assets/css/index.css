@@ -108,7 +108,7 @@ footer {
     font-size: 1.75rem;
   }
 }
-body { background: #cde0fd; }
+html, body { background: #cde0fd; }
 #header { padding: 6.25rem 0 7.5rem; color: #184377; }
 #header a { color: #184377; text-decoration: underline;}
 #header a:hover { color: #3380d4;}
