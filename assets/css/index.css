@@ -112,7 +112,7 @@ body { background: #cde0fd; }
 #header { padding: 6.25rem 0 7.5rem; color: #184377; }
 #header a { color: #184377; text-decoration: underline;}
 #header a:hover { color: #3380d4;}
-#header img { height: 8rem; margin-top: 1.25rem; }
+#header img { height: 10rem; margin-top: 1.25rem; }
 @media only screen and (max-width: 750px) {
 #header { padding: 4.5rem 0 5.5rem; }
 #header img { height: 6rem; margin-top: 1rem; }
