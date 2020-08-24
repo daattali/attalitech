@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+share-title: AttaliTech - Contact
 ---
 
 For any R/Shiny consulting inquiries, please email [dean@attalitech.com](mailto:dean@attalitech.com?subject=Shiny consulting inquiry)
