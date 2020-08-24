@@ -1,14 +1,8 @@
 remote_theme: daattali/beautiful-jekyll
 
-# --- Basic options --- #
-
-# Name of website
 title: AttaliTech Ltd
 
-# Your name to show in the footer
 author: AttaliTech Ltd
-
-# --- List of links in the navigation bar --- #
 
 navbar-links:
   Blog: "https://deanattali.com/"
@@ -26,11 +20,6 @@ navbar-col: "#cde0fd"
 navbar-text-col: "#184377"
 navbar-border-col: "#90afd4"
 
-# --- Footer options --- #
-
-# Select the social network links that you want to show in the footer.
-# Uncomment the links you want to show and add your information to each one.
-# If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "dean@attalitech.com"
   facebook: deanattali
@@ -39,20 +28,12 @@ social-network-links:
   stackoverflow: "3943160/daattali"
   calendly: "attalitech/meeting"
 
-rss-description: Expert R-Shiny Consultant
-
-# --- General options --- #
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
 url-pretty: "AttaliTech.com"
 
 footer-img: "/assets/img/footer-bg.png"
 
-# Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-59820529-1"
 
-# Output options (more information on Jekyll's site)
 timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
@@ -60,8 +41,6 @@ highlighter: rouge
 kramdown:
   input: GFM
 
-
-# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
@@ -70,8 +49,9 @@ defaults:
       layout: "page"
       footer-extra: custom_footer.html
       nav-short: true
+      share-description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Led by renowned expert Dean Attali."
+      share-img: "/assets/img/attalitech.png"
 
-# Exclude these files from production site
 exclude:
   - CNAME
   - Gemfile

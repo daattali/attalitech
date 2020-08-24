@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Led by renowned expert Dean Attali."
 ---
 
 For any R/Shiny consulting inquiries, please email [dean@attalitech.com](mailto:dean@attalitech.com?subject=Shiny consulting inquiry)
