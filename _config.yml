@@ -58,6 +58,7 @@ exclude:
   - Gemfile.lock
   - README.md
 
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
