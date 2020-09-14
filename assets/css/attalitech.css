@@ -132,3 +132,31 @@ footer a {
     padding-right: 1rem;
   }
 }
+
+/* Buttons */
+
+.actionbtn {
+  display: inline-block;
+  margin: 0.5rem 0;
+  font-family: arial;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 0.125rem;
+  background: #4fc949;
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none !important;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
+.actionbtn:hover,
+.actionbtn:focus {
+  background: #3fb13a;
+  color: #fff;
+}
+
+.actionbtn .far {
+  margin-right: 0.3125rem;
+}

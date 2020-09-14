@@ -29,15 +29,10 @@ css:
 	  <span class="service" markdown="1">Building professional quality R packages</span>
 	</div>
 
-<a href="/contact" class="contact-me-btn actionbtn">
-  <span class="far fa-envelope" aria-hidden="true"></span>
-  CONTACT
-</a>
-<a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
-  <span class="far fa-calendar-check" aria-hidden="true"></span>
-  SCHEDULE MEETING
-</a>
-
+    <a href="/contact" class="contact-me-btn actionbtn">
+      <span class="far fa-envelope" aria-hidden="true"></span>
+      CONTACT
+    </a>
   </div>
 </div>
 
@@ -102,10 +97,6 @@ css:
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
     CONTACT
-  </a>
-  <a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
-    <span class="far fa-calendar-check" aria-hidden="true"></span>
-    SCHEDULE MEETING
   </a>
 </div>
 

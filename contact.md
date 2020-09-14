@@ -6,7 +6,14 @@ share-title: AttaliTech - Contact
 
 For any R/Shiny consulting inquiries, please email [dean@attalitech.com](mailto:dean@attalitech.com?subject=Shiny consulting inquiry)
 
-Note that before any work can be performed, a virtual meeting is usually performed to gather requirements and discuss your needs--[click here to schedule a meeting](https://calendly.com/attalitech/meeting).
+Note that before any work can be performed, a (virtual) meeting is usually performed to gather requirements and discuss your needs.
+
+<div style="text-align: center;">
+<a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
+  <span class="far fa-calendar-check" aria-hidden="true"></span>
+  SCHEDULE MEETING
+</a>
+</div>
 
 You can also send a message using the form below:
 
