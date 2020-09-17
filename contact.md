@@ -17,7 +17,7 @@ Note that before any work can be performed, a (virtual) meeting is usually perfo
 
 You can also send a message using the form below:
 
-<form action="https://formspree.io/mdowvgjb" method="POST" class="form" id="contact-form">
+<form action="https://formspree.io/dean@attalitech.com" method="POST" class="form" id="contact-form">
   <div class="row">
     <div class="col-6">
       <input type="email" name="_replyto" required="required" class="form-control input-lg" placeholder="Email" title="Email" style="margin-bottom: 15px;">
