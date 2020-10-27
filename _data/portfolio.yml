@@ -6,6 +6,10 @@
   description: "'timevis' is an R package I built that lets you create interactive timeline visualizations in R."
   img: timevis-demo.png
   url: https://daattali.com/shiny/timevis-demo/
+- title: Digital droplet PCR analysis
+  description: Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis.
+  img: ddpcr.png
+  url: https://daattali.com/shiny/ddpcr/
 - title: Mimicking a Google Form with a Shiny app
   description: Demonstration of how to create forms and save/load submissions with shiny (supplement to a blog post).
   img: mimic.png
@@ -26,10 +30,6 @@
   description: Demonstration of how to store and retrieve data in Shiny apps (supplement to a blog post).
   img: persistent.png
   url: https://daattali.com/shiny/persistent-data-storage/
-- title: Digital droplet PCR analysis
-  description: Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis.
-  img: ddpcr.png
-  url: https://daattali.com/shiny/ddpcr/
 - title: useR! 2017 Attendance
   description: Interactively explore the attendees' schedules from the useR! 2017 Conference.
   img: user2017.png
