@@ -143,7 +143,6 @@ html, body { background: #cde0fd; }
   margin-bottom: 15px;
 }
 
-#clients,
 #qualifications {
   max-width: 56.875rem;
   margin: 0 auto;
@@ -164,6 +163,14 @@ html, body { background: #cde0fd; }
 #clients .client-img:hover {
   box-shadow: 0 0 10px #aaa;
   transform: scale(1.1);
+}
+@media only screen and (max-width: 650px) {
+  #clients .client-img {
+    padding: 0.3rem;
+  }
+  #clients .client-img img {
+    height: 2.5rem;
+  }
 }
 
 #shinyapps-big {
