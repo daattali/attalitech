@@ -1,9 +1,39 @@
+- name: Johnson & Johnson
+  img: jnj.png
+  url: https://www.jnj.com/
+- name: Stanford University 
+  img: stanforduni.png
+  url: https://www.stanford.edu/
+- name: Lieberman Research Worldwide
+  img: lrw.png
+  url: https://lrwonline.com/
+- name: Android Authority
+  img: androidauthority.png
+  url: https://www.androidauthority.com/
+- name: University of Zurich
+  img: uofzurich.png
+  url: https://www.uzh.ch/
+- name: DF/Net Research
+  img: dfnet.png
+  url: https://www.dfnetresearch.com/
+- name: "University of California, Berkeley"
+  img: berkeley.png
+  url: https://www.berkeley.edu/
+- name: "4most Credit Risk Analytics"
+  img: 4most.png
+  url: https://www.4-most.co.uk/
+- name: Comet ML
+  img: comet.png
+  url: https://www.comet.ml/
 - name: Imperial College London
   img: ICL.png
   url: https://www.imperial.ac.uk/
 - name: Dartmouth College
   img: dartmouth.png
   url: https://dartmouth.edu/
+- name: ResourceX Priority Based Budgeting
+  img: resourcex.png
+  url: https://www.resourcex.net/
 - name: University of British Columbia
   img: UBC.png
   url: https://www.ubc.ca/
@@ -17,23 +47,7 @@
 - name: University of Oregon
   img: uoregon.png
   url: https://uoregon.edu/
-- name: ProtoLife
-  img: protolife.png
-  url: https://www.protolife.com/
-  height: 3.125rem
 - name: Certara
   img: certara.png
   url: https://www.certara.com/
   height: 3.125rem
-- name: ResourceX Priority Based Budgeting
-  img: resourcex.png
-  url: https://www.resourcex.net/
-- name: Neon Therapeutics
-  img: neon.png
-  url: https://neontherapeutics.com/
-- name: R Epidemics Consortium
-  img: RECON.png
-  url: https://www.repidemicsconsortium.org/
-- name: Navgathi Marine Design & Constructions
-  img: navgathi.png
-  url: http://navgathi.com/
