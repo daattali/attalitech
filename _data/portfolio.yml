@@ -1,7 +1,11 @@
 - title: CRANalerts
-  description: Get email alerts when a CRAN package gets updated.
+  description: Get email alerts when a CRAN package gets updated - written entirely in Shiny.
   img: cranalerts.png
   url: https://cranalerts.com/
+- title: Rental Cashflow Calculator
+  description: The quickest way to analyze your next investment rental property - written entirely in Shiny.
+  img: cashflowcalc.png
+  url: https://cashflowcalc.com/
 - title: timevis
   description: "'timevis' is an R package I built that lets you create interactive timeline visualizations in R."
   img: timevis-demo.png
