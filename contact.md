@@ -4,7 +4,7 @@ title: Contact
 share-title: AttaliTech - Contact
 ---
 
-For any R/Shiny consulting inquiries, please email [dean@attalitech.com](mailto:dean@attalitech.com?subject=Shiny consulting inquiry)
+For any R/Shiny consulting inquiries, please email [info@attalitech.com](mailto:info@attalitech.com?subject=Shiny consulting inquiry)
 
 Note that before any work can be performed, a (virtual) meeting is usually performed to gather requirements and discuss your needs.
 
