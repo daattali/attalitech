@@ -85,18 +85,11 @@ css:
 
 <div id="qualifications-out" class="page-section">
   <div id="qualifications">
-    <div class="section-title">Dean's Credentials</div>
-    <div id="qualifications-list" markdown="1">
-{% for info in site.data.qualifications %}
-<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>
-<span class="about-content">{{ info.content }}</span>
-{: .about-text }
-{% endfor %}
-</div>
+    <div class="section-title">Take Your R/Shiny Knowlege to the Next Level</div><br/>
   </div>
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT
+    CONTACT ATTALITECH
   </a>
 </div>
 
