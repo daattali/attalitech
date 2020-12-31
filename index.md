@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "AttaliTech - Expert R-Shiny Consultant"
+title: "AttaliTech - Expert R-Shiny Consulting"
 css:
   - /assets/css/index.css
 ---
@@ -9,7 +9,7 @@ css:
 
 # AttaliTech Ltd {#title}
 
-## R-Shiny Consultant {#subtitle}
+## R-Shiny Consulting {#subtitle}
 
 <b style="font-size: 1.2em;">Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
 
@@ -52,7 +52,7 @@ css:
 <div id="clients-out" class="page-section">
   <div id="clients">
     <div class="section-title">Clients</div>
-    <div id="clients-subtitle">Clients range from startups to universities to government agencies and large businesses</div>
+    <div id="clients-subtitle">Clients range from startups to universities to Fortune 500 companies</div>
     <div id="client-logos">
       {% for client in site.data.clients %}
         <a class="client-img" href="{{ client.url }}" title="{{ client.name }}">
