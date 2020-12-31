@@ -89,7 +89,7 @@ css:
   </div>
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT ATTALITECH
+    CONTACT
   </a>
 </div>
 
