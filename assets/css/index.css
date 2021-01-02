@@ -156,9 +156,18 @@ html, body { background: #cde0fd; }
   vertical-align: middle;
   padding: 0.9375rem;
   transition: transform 150ms;
+  height: 6rem;
+  width: 15rem;
+}
+@media only screen and (max-width: 650px) {
+  #clients .client-img {
+    width: 7rem;
+    height: 3rem;
+  }
 }
 #clients .client-img img {
-  height: 5rem;
+  max-height: 100%;
+  max-width: 100%;
 }
 #clients .client-img:hover {
   box-shadow: 0 0 10px #aaa;
