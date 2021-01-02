@@ -152,6 +152,7 @@ html, body { background: #cde0fd; }
   margin: 1.25rem 0 1.875rem;
 }
 #clients .client-img {
+  text-align: left;
   display: inline-block;
   vertical-align: middle;
   padding: 0.9375rem;
