@@ -56,9 +56,8 @@ css:
     <div id="client-logos">
       {% for client in site.data.clients %}
         <a class="client-img" href="{{ client.url }}" title="{{ client.name }}">
-          <img alt="{{ client.name }}" src="/assets/img/logos/{{ client.img }}"
-		       {% if client.height %} style="height: {{ client.height }}" {% endif %}/>
-		</a>
+          <img alt="{{ client.name }}" src="/assets/img/logos/{{ client.img }}" />
+        </a>
       {% endfor %}
     </div>
   </div>
