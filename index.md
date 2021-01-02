@@ -21,10 +21,10 @@ css:
 
 <div id="services-out" class="page-section">
   <div id="services">
-	<div class="section-title">Services</div>
+	<div class="section-title">What We Offer</div>
 	<div id="services-list">
 	  <span class="service" markdown="1">Building or improving Shiny apps of any complexity</span>
-	  <span class="service" markdown="1">Offering expert advice, training, and workshops in Shiny/R</span>
+	  <span class="service" markdown="1">Expert advice, training, and workshops in Shiny/R</span>
 	  <span class="service" markdown="1">Code review and optimization of Shiny apps and workflows</span>
 	  <span class="service" markdown="1">Building professional quality R packages</span>
 	</div>
@@ -85,7 +85,7 @@ css:
 
 <div id="qualifications-out" class="page-section">
   <div id="qualifications">
-    <div class="section-title">Take Your R/Shiny Knowlege to the Next Level</div><br/>
+    <div class="section-title">Take Your Shiny Apps to the Highest Level!</div><br/>
   </div>
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
