@@ -30,8 +30,11 @@ You can also send a message using the form below:
   <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!" />
-  
-  <div style="font-size: 12px; margin-bottom: 15px;">Please do not use this form to send full code samples or to request free help.</div>
-  
+
+  <div style="margin-top: 5px; display: flex; margin-bottom: 15px; font-size: 0.7rem;">
+    <input type="checkbox" id="formspree-subscribe" name="formspree-subscribe" value="agree" checked style="margin-top: 2px; margin-right: 4px;" />
+    <label for="formspree-subscribe">I agree to receive R/Shiny newsletters by email and can unsubscribe at any time (optional)</label>
+  </div>
+
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
