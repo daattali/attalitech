@@ -33,7 +33,7 @@ You can also send a message using the form below:
 
   <div style="margin-top: 5px; display: flex; margin-bottom: 15px; font-size: 0.7rem;">
     <input type="checkbox" id="formspree-subscribe" name="formspree-subscribe" value="agree" checked style="margin-top: 2px; margin-right: 4px;" />
-    <label for="formspree-subscribe">I agree to receive R/Shiny newsletters by email and can unsubscribe at any time (optional)</label>
+    <label for="formspree-subscribe">Sign up to to Shiny newsletter (unsubscribe at any time)</label>
   </div>
 
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
