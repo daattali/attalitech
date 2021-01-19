@@ -11,7 +11,7 @@ css:
 
 ## R-Shiny Consulting {#subtitle}
 
-<b style="font-size: 1.2em;">Led by renowned Shiny expert [Dean Attali](https://deanattali.com/)</b>
+<b style="font-size: 1.2em;">Led by World-Renowned Shiny Expert [Dean Attali](https://deanattali.com/)</b>
 
 <img src="/assets/img/shiny.png" />
 
