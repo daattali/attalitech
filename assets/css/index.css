@@ -27,6 +27,10 @@ p a:hover{
   background: #f5f5f5;
   margin-top: -7vw;
 }
+.page-section.cut1,
+.page-section.cut2 {
+  padding: 4.5rem 0 calc(4.5rem + 7vw);
+}
 @media only screen and (max-width: 1899px) {
   .cut1 {
     clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 4vw));
@@ -40,6 +44,10 @@ p a:hover{
     background: #f5f5f5;
     margin-top: -4vw;
   }
+  .page-section.cut1,
+  .page-section.cut2 {
+    padding: 4.5rem 0 calc(4.5rem + 5vw);
+  }
 }
 
 footer {
@@ -47,25 +55,53 @@ footer {
   margin-top: 0;
 }
 
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 650px) {
+  #particles-js {
+    display: none;
+  }
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: -100% 0; }
+}
 #header {
   text-align: center;
   margin-top: 3.125rem;
-  background: #cde0fd;
-  padding: 6.25rem 0;
-  color: #184377;
+  background: #05172d;
+  padding: 10rem 0;
+  color: #fff;
+  clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  background-image: url(/assets/img/stardust-bg.png);
+  animation: animatedBackground 100s linear infinite;
+}
+#header h1,
+#header h2 {
+  font-family: Roboto;
 }
 
 #header a {
-  color: #184377;
+  color: #fff;
   text-decoration: underline;
 }
 #header a:hover {
   color: #3380d4;
 }
+#header-inner {
+  display: inline-block;
+}
 
 #title {
   margin: 0 0 -1.875rem -10.9375rem;
-  padding-top: 1.875rem;
   font-size: 6.375rem;
   font-weight: 700;
   line-height: 1.4;
@@ -82,19 +118,22 @@ footer {
 #sub-subtitle {
   font-weight: bold;
   font-size: 1.4rem;
-  margin-top: 1.75rem;
+  margin-top: 3.75rem;
 }
 
+#header .actionbtn-out {
+  margin: 0;
+}
 #header .actionbtn {
-  margin: 5rem 0;
-  color: #26338e;
-  background: transparent;
-  border: 2px solid #26338e;
+  margin-top: 7rem;
+  color: #fff;
+  background: #05172d;
+  border: 2px solid #fff;
 }
 #header .actionbtn:hover,
 #header .actionbtn:focus {
-  color: #cde0fd;
-  background: #162277;
+  color: #05172d;
+  background: #fff;
 }
 .actionbtn {
   font-size: 1.5rem;
@@ -153,13 +192,8 @@ footer {
   margin-top: -1px;
   color: #615d6d;
   text-align: center;
-  padding: 4.5rem 0 calc(4.5rem + 7vw);
+  padding: 4.5rem 0;
   background: #fff;
-}
-@media only screen and (max-width: 1899px) {
-  .page-section {
-    padding: 4.5rem 0 calc(4.5rem + 5vw);
-  }
 }
 
 .page-section.grey-section {
@@ -246,6 +280,7 @@ footer {
   background-size: cover;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
+  padding: 5rem 0 6rem;
 }
 #clients-subtitle {
   font-size: 1.8rem;
@@ -281,13 +316,16 @@ footer {
 }
 
 #portfolio-out, .portfolio-buffer {
-  background: #fff;
+  background: #f5f5f5;
   background-image: url(/assets/img/hex-bg.png);
 }
 
 #shinyapps-big .shinyapp {
+  display: inline-block;
+  vertical-align: top;
+  width: 25rem;
   color: #3d3852;
-  margin: 0 1.875rem 3.75rem;
+  margin: 0 1.125rem 2.5rem;
   background: #fff;
   transition: all 250ms;
   text-align: left;
@@ -320,35 +358,23 @@ footer {
   font-size: 1rem;
   line-height: 1.5em;
 }
-#shinyapps-big[data-columns]::before {
-	content: '3 .grid-col.size-1of3';
-}
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1899px) {
   #shinyapps-big .shinyapp {
-    margin:0 0.9375rem 1.875rem;
-  }
-  #shinyapps-big[data-columns]::before {
-    content: '2 .grid-col.size-1of2';
+    width: 20rem;
   }
 }
-@media only screen and (max-width: 500px) {
-  #shinyapps-big[data-columns]::before {
-    content: '1 .grid-col.size-1of1';
+@media only screen and (max-width: 999px) {
+  #shinyapps-big .shinyapp {
+    width: 20rem;
   }
 }
-
-.grid-col {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 28.125rem;
+@media only screen and (max-width: 750px) {
+  #shinyapps-big {
+    padding: 0 1rem;
+  }
+  #shinyapps-big .shinyapp {
+    display: block;
+    margin: 1.75rem auto;
+    max-width: 100%;
+  }
 }
-.size-1of3 {
-  width: 33.333%;
-}
-.size-1of2 {
-  width: 50%;
-}
-.size-1of1 {
-  width: 100%;
-}
-
