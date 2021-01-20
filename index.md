@@ -81,9 +81,9 @@ css:
   </div>
 </div>
 
-<div class="cut-buffer"></div>
+<div class="cut-buffer portfolio-buffer"></div>
 
-<div id="portfolio-out" class="page-section grey-section cut2">
+<div id="portfolio-out" class="page-section grey-section">
   <div id="portfolio">
     <div class="section-title">
       Open-Sourced Shiny Apps
@@ -102,9 +102,9 @@ css:
   </div>
 </div>
 
-<div id="qualifications-out" class="page-section cut1">
-  <div id="qualifications">
-    <div class="section-title">Take Your Shiny Apps to the Highest Level!</div><br/>
+<div id="cta-out" class="page-section">
+  <div id="cta">
+    <div class="section-title">Take Your Shiny Apps to the Highest Level</div><br/>
   </div>
   <a href="/contact" class="actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
@@ -113,8 +113,6 @@ css:
 </div>
 
 </div>
-
-<div class="cut-buffer footer-buffer"></div>
 
 <script>
   /*!
