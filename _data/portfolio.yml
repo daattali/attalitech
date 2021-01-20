@@ -7,19 +7,19 @@
   img: cashflowcalc.png
   url: https://cashflowcalc.com/
 - title: timevis
-  description: "'timevis' is an R package I built that lets you create interactive timeline visualizations in R."
+  description: "Create interactive timeline visualizations in R."
   img: timevis-demo.png
   url: https://daattali.com/shiny/timevis-demo/
 - title: Digital droplet PCR analysis
-  description: Analyze and visualize droplet digital PCR data (part of my 'ddpcr' package). Developed for my masters thesis.
+  description: Analyze and visualize droplet digital PCR data.
   img: ddpcr.png
   url: https://daattali.com/shiny/ddpcr/
 - title: Mimicking a Google Form with a Shiny app
-  description: Demonstration of how to create forms and save/load submissions with shiny (supplement to a blog post).
+  description: Demonstration of how to create forms and save/load submissions with shiny.
   img: mimic.png
   url: https://daattali.com/shiny/mimic-google-form/
 - title: Lights Out game
-  description: "Lights Out is a fun brain-teasing puzzle game. I wrote an R implementation of the game in the package 'lightsout' and here you can play the game using R."
+  description: "Lights Out is a fun brain-teasing puzzle game. Using the {lightsout} package, you can play the game using R."
   img: lightsout.png
   url: https://daattali.com/shiny/lightsout/
 - title: Cancer data
@@ -27,11 +27,11 @@
   img: cancer.png
   url: https://daattali.com/shiny/cancer-data/
 - title: Impact Replays
-  description: An app I wrote that won third place nationally at a CFL (Canadian Football) hackathon. Relive the exciting moments of any CFL game.
+  description: "Relive the exciting moments of any CFL game: Shiny app that won third place nationally at a CFL (Canadian Football) hackathon."
   img: cfl.png
   url: https://daattali.com/shiny/cfl/
 - title: Persistent data storage with Shiny
-  description: Demonstration of how to store and retrieve data in Shiny apps (supplement to a blog post).
+  description: Demonstration of how to store and retrieve data in Shiny apps.
   img: persistent.png
   url: https://daattali.com/shiny/persistent-data-storage/
 - title: useR! 2017 Attendance
@@ -39,46 +39,46 @@
   img: user2017.png
   url: https://daattali.com/shiny/user2017/
 - title: Analyzing R-Bloggers' posts using Twitter
-  description: Explore the success of all R-Bloggers' posts using Twitter (supplement to a blog post).
+  description: Explore the success of all R-Bloggers' posts using Twitter.
   img: rbloggers.png
   url: https://daattali.com/shiny/rbloggers-twitter/
-- title: "'shinyalert' demo"
-  description: "'shinyalert' is an R package I built for easily creating pretty popup messages (modals) in Shiny."
+- title: "shinyalert"
+  description: "Easily create pretty popup messages (modals) in Shiny"
   img: shinyalert.png
   url: https://daattali.com/shiny/shinyalert-demo/
-- title: "{shinyscreenshot} demo"
+- title: "shinyscreenshot"
   description: "Capture screenshots of entire pages or parts of pages in Shiny apps."
   img: shinyscreenshot.png
   url: https://daattali.com/shiny/shinyscreenshot-demo/
 - title: colourInput
-  description: Demo of using the colourInput input control in Shiny apps to allow users to select colours.
+  description: "Adding colour inputs to Shiny apps."
   img: colourinput.png
   url: https://daattali.com/shiny/colourInput/
 - title: shinydisconnect
-  description: "'shinydisconnect' is an R package that allows you to show nice messages to the user when a Shiny app disconnects or errors."
+  description: "Show nice messages to the user when a Shiny app disconnects or errors."
   img: shinydisconnect.PNG
   url: https://daattali.com/shiny/shinydisconnect-demo/
-- title: "'shinycssloaders' demo"
-  description: "'shinycssloaders' is an R package for adding loading animations to a Shiny output while it's recalculating."
+- title: "shinycssloaders"
+  description: "Add loading animations to a Shiny output while it's recalculating."
   img: shinycssloaders.png
   url: https://daattali.com/shiny/shinycssloaders-demo/
-- title: "'shinyjs' demo"
-  description: "'shinyjs' is an R package I built that makes it easy to perform common JavaScript operations in Shiny apps. This demo allows you to experiment with different 'shinyjs' functions."
+- title: "shinyjs"
+  description: "Demo of {shinyjs} common features: Easily improve the user experience of your Shiny apps in seconds."
   img: shinyjs.png
   url: https://daattali.com/shiny/shinyjs-demo/
-- title: "Visualizing when I'm most productive during the day"
-  description: "Analyzing my (and others') git activity to see our work, or coding, patterns."
+- title: "Visualizing your most productive time of day"
+  description: "Analyzing git activity to see our work, or coding, patterns."
   img: visualize-git-commits.png
   url: https://daattali.com/shiny/visualize-git-commits-time/
-- title: Adding marginal histograms to ggplot2
-  description: "Demo of how my package 'ggExtra' can be used to add marginal plots to ggplot2."
+- title: ggMarginal
+  description: "Add marginal plots to ggplot2."
   img: ggmarginal.png
   url: https://daattali.com/shiny/ggExtra-ggMarginal-demo/
 - title: Bingo card generator
   description: The name says it all - a simple app that lets you generate bingo cards.
   img: bingo.png
   url: https://daattali.com/shiny/bingo/
-- title: BC Liquor Store prices
-  description: Simple app that is built as part of a Shiny tutorial I've written. The app lets you find what to get from the liquor store based on filters you choose.
-  img: bcl.png
-  url: https://daattali.com/shiny/bcl/
+#- title: BC Liquor Store prices
+#  description: Simple demo app that lets you find what to get from the liquor store - used for teaching Shiny.
+#  img: bcl.png
+#  url: https://daattali.com/shiny/bcl/
