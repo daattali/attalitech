@@ -141,8 +141,8 @@ footer a {
   font-family: arial;
   text-align: center;
   vertical-align: middle;
-  padding: 0.9375rem 1.875rem;
-  border-radius: 0.125rem;
+  padding: 0.9375rem 3rem;
+  border-radius: 5rem;
   background: #4fc949;
   font-size: 1.25rem;
   color: #fff;

@@ -1,42 +1,60 @@
 ---
 layout: base
-title: "AttaliTech - Expert R-Shiny Consulting"
+title: "AttaliTech | Expert R-Shiny Consulting"
 css:
   - /assets/css/index.css
 ---
 
-<div id="header" markdown="1">
+<div id="header" class="cut1" markdown="1">
 
-# AttaliTech Ltd {#title}
+# AttaliTech {#title}
 
 ## R-Shiny Consulting {#subtitle}
 
-<b style="font-size: 1.2em;">Led by World-Renowned Shiny Expert [Dean Attali](https://deanattali.com/)</b>
+#### Led by World-Renowned Shiny Expert [Dean Attali](https://deanattali.com/) {#sub-subtitle}
 
-<img src="/assets/img/shiny.png" />
+<a href="/contact" class="actionbtn">
+  <span class="far fa-envelope" aria-hidden="true"></span>
+  Contact Us
+</a>
 
 </div>
 
-<div id="main-sections" style="margin-top:-30px;">
+<div id="main-sections">
 
-<div id="services-out" class="page-section">
+<div id="services-out" class="page-section cut1">
   <div id="services">
 	<div class="section-title">What We Offer</div>
 	<div id="services-list">
-	  <span class="service" markdown="1">Building or improving Shiny apps of any complexity</span>
-	  <span class="service" markdown="1">Expert advice, training, and workshops in Shiny/R</span>
-	  <span class="service" markdown="1">Code review and optimization of Shiny apps and workflows</span>
-	  <span class="service" markdown="1">Building professional quality R packages</span>
+	  <div class="service">
+      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Complex dashboard.png" />
+      <div class="service-text">Building or improving Shiny apps of any complexity</div>
+    </div>
+	  <div class="service">
+      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Successful completion of project.png" />
+      <div class="service-text">Expert advice, training, and workshops in Shiny/R</div>
+    </div>
+    <div id="services-break"></div>
+	  <div class="service">
+      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Bug tracking.png" />
+      <div class="service-text">Code review and optimization of Shiny apps and workflows</div>
+    </div>
+	  <div class="service">
+      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Work risk-free.png" />
+      <div class="service-text">Professional quality R packages and custom solutions</div>
+    </div>
 	</div>
 
-    <a href="/contact" class="contact-me-btn actionbtn">
+    <a href="/contact" class="actionbtn">
       <span class="far fa-envelope" aria-hidden="true"></span>
-      CONTACT
+      Contact Us
     </a>
   </div>
 </div>
 
-<div id="aboutme-section-out" class="page-section">
+<div class="cut-buffer"></div>
+
+<div id="aboutme-section-out" class="page-section grey-section cut1">
   <div id="aboutme-section">
     <div class="section-title">About Dean</div>
 	<div id="aboutme-list" markdown="1">
@@ -49,7 +67,7 @@ css:
   </div>
 </div>
 
-<div id="clients-out" class="page-section">
+<div id="clients-out" class="page-section cut2">
   <div id="clients">
     <div class="section-title">Clients</div>
     <div id="clients-subtitle">Clients range from startups to universities to Fortune 500 companies</div>
@@ -63,10 +81,12 @@ css:
   </div>
 </div>
 
-<div id="portfolio-out" class="page-section">
+<div class="cut-buffer"></div>
+
+<div id="portfolio-out" class="page-section grey-section cut2">
   <div id="portfolio">
     <div class="section-title">
-      Sample of Open Sourced Shiny Apps
+      Open-Sourced Shiny Apps
     </div>
     <div id="shinyapps-big" data-columns>
       {% for app in site.data.portfolio %}
@@ -82,18 +102,19 @@ css:
   </div>
 </div>
 
-<div id="qualifications-out" class="page-section">
+<div id="qualifications-out" class="page-section cut1">
   <div id="qualifications">
     <div class="section-title">Take Your Shiny Apps to the Highest Level!</div><br/>
   </div>
-  <a href="/contact" class="contact-me-btn actionbtn">
+  <a href="/contact" class="actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT
+    Contact Us
   </a>
 </div>
 
 </div>
 
+<div class="cut-buffer footer-buffer"></div>
 
 <script>
   /*!

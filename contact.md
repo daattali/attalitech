@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Contact
-share-title: AttaliTech - Contact
+title: Contact Us
+share-title: AttaliTech | Contact Us
 ---
 
 For any R/Shiny consulting inquiries, please email [info@attalitech.com](mailto:info@attalitech.com?subject=Shiny consulting inquiry)
 
-Note that before any work can be performed, a (virtual) meeting is usually performed to gather requirements and discuss your needs.
+Note that before any work can be performed, a (virtual) meeting is usually held to gather requirements and discuss your needs.
 
 <div style="text-align: center;">
 <a href="https://calendly.com/attalitech/meeting" class="schedule-btn actionbtn">
   <span class="far fa-calendar-check" aria-hidden="true"></span>
-  SCHEDULE MEETING
+  Schedule Meeting
 </a>
 </div>
 
-You can also send a message using the form below:
+You can also send us a message using this form:
 
 <form action="https://formspree.io/dean@attalitech.com" method="POST" class="form" id="contact-form">
   <div class="row">

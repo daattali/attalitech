@@ -1,5 +1,6 @@
 ---
-title: "AttaliTech Payment Options"
+title: "Payment Options"
+share-title: AttaliTech | Payment Options
 ---
 
 For any questions regarding payment, please email [payments@attalitech.com](mailto:payments@attalitech.com)

@@ -1,6 +1,6 @@
 remote_theme: daattali/beautiful-jekyll
 
-title: AttaliTech Ltd
+title: AttaliTech
 
 author: AttaliTech Ltd
 
@@ -8,7 +8,7 @@ navbar-links:
   Blog: "https://deanattali.com/"
   Open-Source: "https://deanattali.com/projects"
   Schedule meeting: "https://calendly.com/attalitech/meeting"
-  Contact: "/contact"
+  Contact Us: "/contact"
 
 site-css: "/assets/css/attalitech.css"
 
@@ -21,7 +21,7 @@ navbar-text-col: "#184377"
 navbar-border-col: "#90afd4"
 
 social-network-links:
-  email: "dean@attalitech.com"
+  email: "info@attalitech.com"
   github: daattali
   twitter: daattali
   calendly: "attalitech/meeting"
