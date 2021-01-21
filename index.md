@@ -37,26 +37,26 @@ ext-js:
 
 <div id="services-out" class="page-section cut1">
   <div id="services">
-	<div class="section-title">What We Offer</div>
-	<div id="services-list">
-	  <div class="service">
-      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Complex dashboard.png" />
-      <div class="service-text">Building or improving Shiny apps of any complexity</div>
+	  <div class="section-title">What We Offer</div>
+    <div id="services-list">
+      <div class="service">
+        <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Complex dashboard.png" />
+        <div class="service-text">Building or improving Shiny apps of any complexity</div>
+      </div>
+      <div class="service">
+        <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Successful completion of project.png" />
+        <div class="service-text">Expert advice, training, and workshops in Shiny/R</div>
+      </div>
+      <div id="services-break"></div>
+      <div class="service">
+        <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Bug tracking.png" />
+        <div class="service-text">Code review and optimization of Shiny apps and workflows</div>
+      </div>
+      <div class="service">
+        <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Work risk-free.png" />
+        <div class="service-text">Professional quality R packages and custom solutions</div>
+      </div>
     </div>
-	  <div class="service">
-      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Successful completion of project.png" />
-      <div class="service-text">Expert advice, training, and workshops in Shiny/R</div>
-    </div>
-    <div id="services-break"></div>
-	  <div class="service">
-      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Bug tracking.png" />
-      <div class="service-text">Code review and optimization of Shiny apps and workflows</div>
-    </div>
-	  <div class="service">
-      <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Work risk-free.png" />
-      <div class="service-text">Professional quality R packages and custom solutions</div>
-    </div>
-	</div>
 
     <a href="/contact" class="actionbtn">
       <span class="far fa-envelope" aria-hidden="true"></span>
@@ -65,22 +65,34 @@ ext-js:
   </div>
 </div>
 
-<div class="cut-buffer"></div>
+<div class="cut-buffer aboutus-buffer"></div>
 
-<div id="aboutme-section-out" class="page-section grey-section cut1">
-  <div id="aboutme-section">
-    <div class="section-title">About Dean</div>
-	<div id="aboutme-list" markdown="1">
-{% for info in site.data.main_info %}
-{% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
-<span class="about-content">{{ info.content }}</span>
-{: .about-text }
-{% endfor %}
-</div>
+<div id="aboutus-out" class="page-section grey-section cut2">
+  <div id="aboutus">
+	  <div class="section-title">About Us</div>
+    <div id="aboutus-text">
+      AttaliTech was launched in 2016 as the world's <b>first</b> Shiny consulting firm. The goal was simple: provide a one-stop shop for any and all of your Shiny needs, while adhering to the <b>highest standards</b>. Today, AttaliTech is a <b>global leader</b> in providing top quality R/Shiny services and is trusted by over 100 companies worldwide. We take pride in knowing you won't get better quality anywhere else.<br/><br/>We're certain of it.
+    </div>
   </div>
 </div>
 
-<div id="clients-out" class="page-section cut2">
+<div class="cut-buffer values-buffer"></div>
+
+<div id="values-out" class="page-section cut2">
+  <div id="values">
+	  <div class="section-title">Our Values</div>
+    <div id="values-text">
+      At AttaliTech, we care about good code, good user experience, and doing things <b>right</b>.<br/><br/>
+      We don't just "get the job done" - we pay attention to the small details to get it done right. We believe in developing every project as if it were our own, never compromising on code quality or end-user experience. We focus on more than just delivering a final product - we're always looking for ways to add more value to our clients. Our clients enjoy peace of mind knowing they can trust us to deliver clean, robust, maintainable code that just works.
+    </div>
+    <a href="/contact" class="actionbtn">
+      <span class="far fa-envelope" aria-hidden="true"></span>
+      Work With Us
+    </a>
+  </div>
+</div>
+
+<div id="clients-out" class="page-section cut1">
   <div id="clients">
     <div class="section-title">Clients</div>
     <div id="clients-subtitle">Clients range from startups to universities to Fortune 500 companies</div>
@@ -91,6 +103,21 @@ ext-js:
         </a>
       {% endfor %}
     </div>
+  </div>
+</div>
+
+<div class="cut-buffer"></div>
+
+<div id="aboutme-section-out" class="page-section grey-section cut2">
+  <div id="aboutme-section">
+    <div class="section-title">About the CEO</div>
+	<div id="aboutme-list" markdown="1">
+{% for info in site.data.main_info %}
+{% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
+<span class="about-content">{{ info.content }}</span>
+{: .about-text }
+{% endfor %}
+</div>
   </div>
 </div>
 

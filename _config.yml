@@ -5,9 +5,10 @@ title: AttaliTech
 author: AttaliTech Ltd
 
 navbar-links:
-  Blog: "https://deanattali.com/"
-  Open-Source: "https://deanattali.com/projects"
-  Schedule meeting: "https://calendly.com/attalitech/meeting"
+  Services: "/#services"
+  About Us: "/#aboutus"
+  Clients: "/#clients"
+  Open-Source: "/#portfolio"
   Contact Us: "/contact"
 
 site-css: "/assets/css/attalitech.css"
