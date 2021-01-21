@@ -37,7 +37,7 @@ ext-js:
 
 <div id="services-out" class="page-section cut1">
   <div id="services">
-	  <div class="section-title">What We Offer</div>
+    <div class="section-title">What We Offer</div>
     <div id="services-list">
       <div class="service">
         <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Complex dashboard.png" />
@@ -69,9 +69,9 @@ ext-js:
 
 <div id="aboutus-out" class="page-section grey-section cut2">
   <div id="aboutus">
-	  <div class="section-title">About Us</div>
+    <div class="section-title">About Us</div>
     <div id="aboutus-text">
-      AttaliTech was launched in 2016 as the world's <b>first</b> Shiny consulting firm. The goal was simple: provide a one-stop shop for any and all of your Shiny needs, while adhering to the <b>highest standards</b>. Today, AttaliTech is a <b>global leader</b> in providing top quality R/Shiny services and is trusted by over 100 companies worldwide. We take pride in knowing you won't get better quality anywhere else.<br/><br/>We're certain of it.
+      AttaliTech was launched in 2016 as the world's <b>first</b> Shiny consulting firm. The goal was simple: provide a one-stop shop for any and all of your Shiny needs, while adhering to the <b>highest standards</b>. Today, AttaliTech is a <b>global leader</b> in providing top quality R/Shiny services and is trusted by over 100 companies worldwide. We take pride in knowing you won't get better quality anywhere else.<br/><br/><b>We're certain of it.</b>
     </div>
   </div>
 </div>
@@ -83,10 +83,9 @@ ext-js:
 	  <div class="section-title">Our Values</div>
     <div id="values-text">
       At AttaliTech, we care about good code, good user experience, and doing things <b>right</b>.<br/><br/>
-      We don't just "get the job done" - we pay attention to the small details to get it done right. We believe in developing every project as if it were our own, never compromising on code quality or end-user experience. We focus on more than just delivering a final product - we're always looking for ways to add more value to our clients. Our clients enjoy peace of mind knowing they can trust us to deliver clean, robust, maintainable code that just works.
+      We believe in developing every project as if it's your own, <b>never </b>compromising on code quality or end-user experience. We focus on more than just delivering a final product - we're always looking for ways to add more <b>value</b> to our clients. Our clients enjoy peace of mind knowing they can trust us to deliver clean, robust, maintainable code that just works.
     </div>
     <a href="/contact" class="actionbtn">
-      <span class="far fa-envelope" aria-hidden="true"></span>
       Work With Us
     </a>
   </div>
