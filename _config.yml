@@ -11,8 +11,9 @@ navbar-links:
   Open-Source: "/#portfolio"
   Contact Us: "/contact"
 
-site-css: "/assets/css/attalitech.css"
+title-img: /assets/img/attalitech-logo-light.png
 
+site-css: "/assets/css/attalitech.css"
 
 keywords: "r shiny,shiny developer,shiny consultant,r consultant,shiny apps"
 

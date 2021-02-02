@@ -18,6 +18,12 @@ footer a {
   text-decoration: none;
 }
 
+.navbar-custom .navbar-brand-logo img,
+.navbar-custom.top-nav-short .navbar-brand-logo img,
+.navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
+  height: 1.2rem;
+}
+
 /* Subscription section */
 
 #mailchimp-subscribe-section-footer {
