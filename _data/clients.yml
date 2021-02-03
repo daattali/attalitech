@@ -8,6 +8,12 @@
 - name: Lieberman Research Worldwide
   img: lrw.png
   url: https://lrwonline.com/
+- name: Roche
+  img: roche.png
+  url: https://www.roche.com/
+- name: World Health Organization
+  img: who.png
+  url: https://www.who.int/
 - name: Android Authority
   img: androidauthority.png
   url: https://www.androidauthority.com/
