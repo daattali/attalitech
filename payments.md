@@ -43,7 +43,7 @@ If paying in **US Dollars**, your options are:
   **Note: a $30 fee is added to wire transfers. Please add $30 to your payment.**  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS3N  
-  Please [email us](mailto:payments@attalitech.com) for the account #  
+  Please [email us](mailto:payments@attalitech.com) for the account name and #  
   Address: Bank of America, NA  
   222 Broadway   
   New York, New York 10038
