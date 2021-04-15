@@ -1,3 +1,4 @@
+/*
 $(function() {
   particlesJS('particles-js',
     {
@@ -114,3 +115,4 @@ $(function() {
   
   setTimeout(function(){ window.dispatchEvent(new Event('resize')); }, 1000);
 });
+*/
