@@ -45,7 +45,7 @@ ext-js:
       </div>
       <div class="service">
         <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Successful completion of project.png" />
-        <div class="service-text">Expert advice, training, and workshops in Shiny/R</div>
+        <div class="service-text">Expert advice in Shiny, including private tutoring</div>
       </div>
       <div id="services-break"></div>
       <div class="service">
