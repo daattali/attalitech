@@ -37,7 +37,7 @@ You can also send us a message using this form:
   <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP"></div>
   <input type="hidden" name="_feedback.success.title" value="Thanks for contacting AttaliTech, we'll be in touch shortly!" />
   <input type="hidden" name="_email.from" value="Formspark AttaliTech" />
-  <input type="hidden" name="_feedback.error.title" value="An error occurred (did you check the \"I'm not a robot\" box?)" />
+  <input type="hidden" name="_feedback.error.title" value="An error occurred (did you check the &quot;I'm not a robot&quot; box?)" />
 
   <br/>
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
