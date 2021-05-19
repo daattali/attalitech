@@ -38,5 +38,6 @@ You can also send us a message using this form:
   <input type="hidden" name="_feedback.success.title" value="Thanks for contacting AttaliTech, we'll be in touch shortly!" />
   <input type="hidden" name="_email.from" value="Formspark AttaliTech" />
 
+  <br/>
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
