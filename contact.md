@@ -4,6 +4,8 @@ title: Contact Us
 share-title: AttaliTech | Contact Us
 ---
 
+<script src="https://unpkg.com/@botpoison/browser"></script>
+
 For any R/Shiny consulting inquiries, please email [info@attalitech.com](mailto:info@attalitech.com?subject=Shiny consulting inquiry)
 
 Note that before any work can be performed, a (virtual) meeting is usually held to gather requirements and discuss your needs.
@@ -17,7 +19,7 @@ Note that before any work can be performed, a (virtual) meeting is usually held 
 
 You can also send us a message using this form:
 
-<form action="https://submit-form.com/sV7y563V" class="form" id="contact-form">
+<form action="https://submit-form.com/sV7y563V" class="form" id="contact-form" data-botpoison-public-key="pk_777aa1aa-833b-443e-ab3f-ac8fab25b4be">
   <div class="row">
     <div class="col-6">
       <input type="email" name="email" required="required" class="form-control input-lg" placeholder="Email" title="Email" style="margin-bottom: 15px;">
