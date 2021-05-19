@@ -166,3 +166,7 @@ footer a {
 .actionbtn .far {
   margin-right: 0.3125rem;
 }
+
+.btn[disabled] {
+  cursor: not-allowed;
+}
