@@ -5,6 +5,7 @@ share-title: AttaliTech | Contact Us
 ---
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>enableSubmitContact = function(){ document.getElementById("submit_contact").disabled = false; }</script>
 
 For any R/Shiny consulting inquiries, please email [info@attalitech.com](mailto:info@attalitech.com?subject=Shiny consulting inquiry)
 
@@ -34,7 +35,7 @@ You can also send us a message using this form:
     <label for="formspree-subscribe">Sign up to Shiny newsletter (unsubscribe at any time)</label>
   </div>
 
-  <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP" data-callback="function(){ document.getElementById('submit_contact').disabled = false; }"></div>
+  <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP" data-callback="enableSubmitContact"></div>
   <input type="hidden" name="_feedback.success.title" value="Thanks for contacting AttaliTech, we'll be in touch shortly!" />
   <input type="hidden" name="_email.from" value="Formspark AttaliTech" />
   <input type="hidden" name="_feedback.error.title" value="An error occurred (did you check the &quot;I'm not a robot&quot; box?)" />
