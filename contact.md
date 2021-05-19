@@ -34,11 +34,11 @@ You can also send us a message using this form:
     <label for="formspree-subscribe">Sign up to Shiny newsletter (unsubscribe at any time)</label>
   </div>
 
-  <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP"></div>
+  <div class="g-recaptcha" data-sitekey="6Levj9waAAAAAKjnDWEPUfENn91YBRofBG7VxCUP" data-callback="function(){ document.getElementById('submit_contact').disabled = false; }"></div>
   <input type="hidden" name="_feedback.success.title" value="Thanks for contacting AttaliTech, we'll be in touch shortly!" />
   <input type="hidden" name="_email.from" value="Formspark AttaliTech" />
   <input type="hidden" name="_feedback.error.title" value="An error occurred (did you check the &quot;I'm not a robot&quot; box?)" />
 
   <br/>
-  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+  <button id="submit_contact" type="submit" class="btn btn-lg btn-primary" disabled>Submit</button>
 </form>
