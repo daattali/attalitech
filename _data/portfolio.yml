@@ -22,6 +22,10 @@
   description: "Lights Out is a fun brain-teasing puzzle game. Using the {lightsout} package, you can play the game using R."
   img: lightsout.png
   url: https://daattali.com/shiny/lightsout/
+- title: Employee Attrition Risk
+  description: Dashboard to analyze the attrition risk of employees at a fictitious compnay.
+  img: attrition.png
+  uril: https://daattali.com/shiny/employee_attrition_risk/
 - title: Cancer data
   description: Interactively explore data about cancer incidences/deaths in the US.
   img: cancer.png
