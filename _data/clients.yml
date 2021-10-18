@@ -14,6 +14,9 @@
 - name: World Health Organization
   img: who.png
   url: https://www.who.int/
+- name: Occam Industries
+  img: occam.png
+  url: https://www.occam-apps.com/
 - name: Android Authority
   img: androidauthority.png
   url: https://www.androidauthority.com/
