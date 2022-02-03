@@ -15,13 +15,14 @@ If paying in **US Dollars**, your options are:
 - ACH direct deposit <button data-target="#ach" class="btn btn-link" data-toggle="collapse">Details</button>
 
   Bank of America  
-  Checking account  
+  Business Checking account  
   Routing # 125000024  
   Please [email us](mailto:payments@attalitech.com) for the account #
   {: #ach .collapse}
   
 - Physical check <button data-target="#check" class="btn btn-link" data-toggle="collapse">Details</button>
 
+  AttaliTech Ltd
   102 Beverley Glen Blvd  
   Thornhill, ON  
   L4J7V2  
@@ -43,7 +44,8 @@ If paying in **US Dollars**, your options are:
   **Note: a $30 fee is added to wire transfers. Please add $30 to your payment.**  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS3N  
-  Please [email us](mailto:payments@attalitech.com) for the account name and #  
+  Account name: dba AttaliTech  
+  Please [email us](mailto:payments@attalitech.com) for the account #  
   Address: Bank of America, NA  
   222 Broadway   
   New York, New York 10038
@@ -68,6 +70,7 @@ If paying in **Canadian Dollars**, your options are:
 
 - Physical check <button data-target="#checkcad" class="btn btn-link" data-toggle="collapse">Details</button>
 
+  AttaliTech Ltd
   102 Beverley Glen Blvd  
   Thornhill, ON  
   L4J7V2  
@@ -86,6 +89,7 @@ If paying in a **foreign currency**, your options are:
   **Note: a $45 fee is added to wire transfers, plus 3% foreign exchange fee. Please add $45 plus 3% to your payment.**  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS6S  
+  Account name: dba AttaliTech  
   Please [email us](mailto:payments@attalitech.com) for the account #  
   Address: Bank of America, NA  
   555 California St   
