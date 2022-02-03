@@ -22,7 +22,7 @@ If paying in **US Dollars**, your options are:
   
 - Physical check <button data-target="#check" class="btn btn-link" data-toggle="collapse">Details</button>
 
-  AttaliTech Ltd
+  AttaliTech Ltd  
   102 Beverley Glen Blvd  
   Thornhill, ON  
   L4J7V2  
