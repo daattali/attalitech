@@ -42,6 +42,7 @@ If paying in **US Dollars**, your options are:
 - Wire transfer <button data-target="#wire" class="btn btn-link" data-toggle="collapse">Details</button>
 
   **Note: a $30 fee is added to wire transfers. Please add $30 to your payment.**  
+  Bank of America  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS3N  
   Account name: dba AttaliTech  
@@ -87,6 +88,7 @@ If paying in a **foreign currency**, your options are:
 - Wire transfer <button data-target="#wireforeign" class="btn btn-link" data-toggle="collapse">Details</button>
 
   **Note: a $45 fee is added to wire transfers, plus 3% foreign exchange fee. Please add $45 plus 3% to your payment.**  
+  Bank of America  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS6S  
   Account name: dba AttaliTech  
