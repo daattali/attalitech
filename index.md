@@ -45,7 +45,7 @@ ext-js:
       </div>
       <div class="service">
         <img class="service-img" alt="Service image" src="/assets/img/scale-flexiple/Successful completion of project.png" />
-        <div class="service-text">Expert advice in Shiny, including private tutoring</div>
+        <div class="service-text">Group workshops and private tutoring</div>
       </div>
       <div id="services-break"></div>
       <div class="service">
@@ -109,7 +109,7 @@ ext-js:
 
 <div id="aboutme-section-out" class="page-section grey-section cut2">
   <div id="aboutme-section">
-    <div class="section-title">About the CEO</div>
+    <div class="section-title">About the Founder</div>
 	<div id="aboutme-list" markdown="1">
 {% for info in site.data.main_info %}
 {% if info.icon %}<span class="about-icon fa-fw {{ info.icon }}" aria-hidden="true"></span>{% endif info.icon %}
