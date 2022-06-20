@@ -23,10 +23,11 @@ If paying in **US Dollars**, your options are:
 - Physical check <button data-target="#check" class="btn btn-link" data-toggle="collapse">Details</button>
 
   AttaliTech Ltd  
-  102 Beverley Glen Blvd  
-  Thornhill, ON  
-  L4J7V2  
-  Canada
+  1 Palace Pier Court  
+  Apt 701  
+  Toronto, ON  
+  M8V3W9  
+  Canada  
   {: #check .collapse}
   
 - Credit card <button data-target="#cc" class="btn btn-link" data-toggle="collapse">Details</button>
@@ -72,10 +73,11 @@ If paying in **Canadian Dollars**, your options are:
 - Physical check <button data-target="#checkcad" class="btn btn-link" data-toggle="collapse">Details</button>
 
   AttaliTech Ltd  
-  102 Beverley Glen Blvd  
-  Thornhill, ON  
-  L4J7V2  
-  Canada
+  1 Palace Pier Court  
+  Apt 701  
+  Toronto, ON  
+  M8V3W9  
+  Canada  
   {: #checkcad .collapse}
 
 - Credit card <button data-target="#cccad" class="btn btn-link" data-toggle="collapse">Details</button>
