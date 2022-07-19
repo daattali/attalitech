@@ -46,7 +46,7 @@ If paying in **US Dollars**, your options are:
   Bank of America  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS3N  
-  Account name: dba AttaliTech  
+  Account name: AttaliTech  
   Please [email us](mailto:payments@attalitech.com) for the account #  
   Address: Bank of America, NA  
   222 Broadway   
@@ -93,7 +93,7 @@ If paying in a **foreign currency**, your options are:
   Bank of America  
   Routing/ABA # 026009593   
   SWIFT code BOFAUS6S  
-  Account name: dba AttaliTech  
+  Account name: AttaliTech  
   Please [email us](mailto:payments@attalitech.com) for the account #  
   Address: Bank of America, NA  
   555 California St   
