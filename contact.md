@@ -44,4 +44,4 @@ You can also send us a message using the form below.
   <button id="submit_contact" type="submit" class="btn btn-lg btn-primary" disabled>Submit</button>
 </form>
 
-Contacting us online is the best way to get in touch, but you can also reach us by phone at <a href="tel:16042274469" title="Phone">+1 (604) 22-SHINY</a>.
+Contacting us online is the best way to get in touch, but you can also reach us by phone at <a href="tel:16042274469" title="Phone">(604) 22-SHINY</a>.
