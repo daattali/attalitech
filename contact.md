@@ -18,7 +18,7 @@ Note that before any work can be performed, a (virtual) meeting is usually held 
 </a>
 </div>
 
-You can also send us a message using this form:
+You can also send us a message using the form below.
 
 <form action="https://submit-form.com/sV7y563V" class="form" id="contact-form">
   <div class="row">
@@ -43,3 +43,5 @@ You can also send us a message using this form:
   <br/>
   <button id="submit_contact" type="submit" class="btn btn-lg btn-primary" disabled>Submit</button>
 </form>
+
+Contacting us online is the best way to get in touch, but you can also reach us by phone at <a href="tel:16042274469" title="Phone">+1 (604) 22-SHINY</a>.
