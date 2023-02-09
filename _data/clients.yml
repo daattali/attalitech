@@ -5,6 +5,9 @@
 - name: Stanford University 
   img: stanforduni.png
   url: https://www.stanford.edu/
+- name: Domino Data Lab
+  img: domino.png
+  url: https://www.dominodatalab.com/
 - name: Lieberman Research Worldwide
   img: lrw.png
   url: https://lrwonline.com/
@@ -23,6 +26,9 @@
 - name: University of Zurich
   img: uofzurich.png
   url: https://www.uzh.ch/
+- name: Plotly
+  img: plotly.png
+  url: https://plotly.com/
 - name: DF/Net Research
   img: dfnet.png
   url: https://www.dfnetresearch.com/
