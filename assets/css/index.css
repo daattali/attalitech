@@ -44,6 +44,7 @@ footer {
 }
 
 #particles-js {
+  background-image: url('../img/stardust-bg.png');
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +60,7 @@ footer {
 }
 
 @keyframes animatedBackground {
-    from { background-position: 0 0; }
+    from { background-position: 0 0; }  
     to { background-position: -100% 0; }
 }
 #header {
@@ -73,7 +74,7 @@ footer {
 }
 #header h1,
 #header h2 {
-  font-family: Roboto;
+  font-family: 'Poppins';
 }
 
 #header a {
@@ -88,6 +89,7 @@ footer {
 }
 
 #title {
+  font: bold 'Poppins', sans-serif;
   margin: 0 0 -1.875rem -10.9375rem;
   font-size: 6.375rem;
   font-weight: 700;
@@ -95,7 +97,7 @@ footer {
 }
 
 #subtitle  {
-  font-weight: normal;
+  font: lighter 'Poppins', sans-serif;
   margin: 0;
   margin-left: 10.9375rem;
   font-size: 2.8125rem;
@@ -103,7 +105,7 @@ footer {
 }
 
 #sub-subtitle {
-  font-weight: bold;
+  font: 'Chivo Mono', monospace;
   font-size: 1.4rem;
   margin-top: 3.75rem;
 }
@@ -123,6 +125,7 @@ footer {
   background: #fff;
 }
 .actionbtn {
+  font: 'Poppins', sans-serif;
   font-size: 1.5rem;
 }
 @media only screen and (max-width: 750px) {
