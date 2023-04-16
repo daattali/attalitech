@@ -44,7 +44,6 @@ defaults:
       path: ""
     values:
       layout: "page"
-      footer-extra: footer.html
       nav-short: true
       share-description: "United States West Coast DevOps and Systems Architecture consultancy."
       share-img: ""
