@@ -1,22 +1,19 @@
 remote_theme: daattali/beautiful-jekyll
 
 
-title: AttaliTech
+title: Scaling Startups
 
-author: AttaliTech Ltd
+author: Fogg Consulting LLC
 
 navbar-links:
-  Services: "/#services"
   About Us: "/#aboutus"
-  Clients: "/#clients"
-  Open-Source: "/#portfolio"
   Contact Us: "/contact"
 
 title-img: /assets/img/attalitech-logo-light.png
 
 site-css: "/assets/css/attalitech.css"
 
-keywords: "r shiny,shiny developer,shiny consultant,r consultant,shiny apps"
+keywords: "devops, infrastructure, cloud, systems architecture, consultant, consultancy"
 
 mobile-theme-col: "#0085A1"
 navbar-col: "#05172d"
@@ -24,21 +21,17 @@ navbar-text-col: "#fff"
 navbar-border-col: "#05172d"
 
 social-network-links:
-  email: "info@attalitech.com"
-  github: daattali
-  twitter: daattali
-  calendly: "attalitech/meeting"
-  youtube: "c/daattali?sub_confirmation=1"
-  patreon: DeanAttali
-  telephone: +16042274469
+  email: "fogg4444@gmail.com"
+  github: fogg4444
+  telephone: +19253008927
 
-url-pretty: "AttaliTech.com"
+url-pretty: "ScalingStartups.AI"
 
 footer-img: "/assets/img/footer-bg.png"
 
-google_analytics: "UA-59820529-1"
+google_analytics: ""
 
-timezone: "America/Toronto"
+timezone: "America/Los_Angeles"
 markdown: kramdown
 highlighter: rouge
 
@@ -53,8 +46,8 @@ defaults:
       layout: "page"
       footer-extra: custom_footer.html
       nav-short: true
-      share-description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Led by renowned expert Dean Attali."
-      share-img: "/assets/img/attalitech.png"
+      share-description: "United States West Coast DevOps and Systems Architecture consultancy."
+      share-img: ""
 
 exclude:
   - CNAME
