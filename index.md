@@ -21,7 +21,7 @@ ext-js:
 
 #### United States West Coast DevOps and Systems Architecture consultancy. {#sub-subtitle}
 
-<a href="/contact" class="actionbtn">
+<a href="/scaling-startups-ai/contact" class="actionbtn">
   <span class="far fa-envelope" aria-hidden="true"></span>
   Contact Us
 </a>
