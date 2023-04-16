@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Scaling | Startups"
+title: "Scaling Startups | by Brian Fogg"
 css:
   - /assets/css/index.css
 ext-css:
