@@ -21,11 +21,11 @@ ext-js:
 
   #### United States West Coast DevOps and Systems Architecture consultancy. {#sub-subtitle}
 
-  <a href="mailto:fogg4444@gmail.com" class="actionbtn">
-    <span class="far fa-envelope" aria-hidden="true"></span>
-    Contact Us
-  </a>
-  {: .actionbtn-out :}
+<a href="/scaling-startups-ai/contact" class="actionbtn">
+  <span class="far fa-envelope" aria-hidden="true"></span>
+  Contact Us
+</a>
+{: .actionbtn-out :}
 
   </div>
 </div>

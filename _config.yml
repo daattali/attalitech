@@ -9,7 +9,7 @@ navbar-links:
   About Us: "/#aboutus"
   Contact Us: "/contact"
 
-title-img: /assets/img/attalitech-logo-light.png
+title-img: /assets/img/scaling-startups-logo.png
 
 site-css: "/assets/css/attalitech.css"
 
@@ -44,7 +44,6 @@ defaults:
       path: ""
     values:
       layout: "page"
-      footer-extra: custom_footer.html
       nav-short: true
       share-description: "United States West Coast DevOps and Systems Architecture consultancy."
       share-img: ""
