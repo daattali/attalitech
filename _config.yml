@@ -36,7 +36,7 @@ url-pretty: "AttaliTech.com"
 
 footer-img: "/assets/img/footer-bg.png"
 
-google_analytics: "UA-59820529-1"
+gtag: "G-Y80XD5LXBY"
 
 timezone: "America/Toronto"
 markdown: kramdown
