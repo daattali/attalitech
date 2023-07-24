@@ -53,7 +53,7 @@ defaults:
       layout: "page"
       footer-extra: custom_footer.html
       nav-short: true
-      share-description: "AttaliTech provides world-class R/Shiny consulting. Services include building professional Shiny apps, auditing Shiny code, package building, mentoring and training. Led by renowned expert Dean Attali."
+      share-description: "AttaliTech provides world-class R/Shiny consulting and development services. We develop enterprise Shiny apps, perform code audits, build professional R packages, and more. Led by renowned expert Dean Attali."
       share-img: "/assets/img/attalitech.png"
 
 exclude:
