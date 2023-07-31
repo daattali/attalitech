@@ -32,12 +32,12 @@ If paying in **US Dollars**, your options are:
   
 - Credit card <button data-target="#cc" class="btn btn-link" data-toggle="collapse">Details</button>
 
-  If you would like to pay with a credit card, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3.50% service fee applies.
+  If you would like to pay with a credit card, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3% service fee applies.
   {: #cc .collapse}
   
 - PayPal <button data-target="#paypal" class="btn btn-link" data-toggle="collapse">Details</button>
 
-  If you would like to pay with PayPal, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3.50% service fee applies.
+  If you would like to pay with PayPal, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3% service fee applies.
   {: #paypal .collapse}
   
 - Wire transfer <button data-target="#wire" class="btn btn-link" data-toggle="collapse">Details</button>
@@ -82,7 +82,7 @@ If paying in **Canadian Dollars**, your options are:
 
 - Credit card <button data-target="#cccad" class="btn btn-link" data-toggle="collapse">Details</button>
 
-  If you would like to pay with a credit card, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3.50% service fee applies.
+  If you would like to pay with a credit card, [let us know](mailto:payments@attalitech.com) and we will send you a link to a secure payment page. Note: a 3% service fee applies.
   {: #cccad .collapse}
 
 If paying in a **foreign currency**, your options are:
