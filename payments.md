@@ -108,6 +108,6 @@ If paying in a **foreign currency**, your options are:
 
 When you [schedule our first meeting](https://calendly.com/attalitech/meeting) you'll notice that it requires a payment to be made upfront. 
 
-Before adding this fee, several booking were being made every single day. Many people either used the time as a free 1-on-1 Q&A session or simply did not show up. The fee acts as a simple filter to ensure only serious requests are made.
+Before adding this fee, several bookings were being made every single day. Many people either used the time as a free Q&A session or simply did not show up. The fee acts as a simple filter to ensure only serious requests are made.
 
 If you would like the fee to be waived for administrative/bureaucratic reasons, please [email us](mailto:info@attalitech.com). 
