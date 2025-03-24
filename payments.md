@@ -24,7 +24,7 @@ If paying in **US Dollars**, your options are:
 
   AttaliTech Ltd  
   1 Palace Pier Court  
-  Apt 701  
+  Apt 1103  
   Toronto, ON  
   M8V3W9  
   Canada  
@@ -74,7 +74,7 @@ If paying in **Canadian Dollars**, your options are:
 
   AttaliTech Ltd  
   1 Palace Pier Court  
-  Apt 701  
+  Apt 1103  
   Toronto, ON  
   M8V3W9  
   Canada  
